@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Resume - Quark Wei</title>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/knockout-3.4.0.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/resume.css">
 </head>
@@ -17,10 +13,10 @@
                 <table style="width:100%">
                     <tr>
                         <td data-bind="text: phone"></td>
-                        <td rowspan="2" class="text-md-center">
-                            <h2 data-bind="text: fullName"></h2>
+                        <td rowspan="2" class="text-xs-center">
+                            <h2 data-bind="text: fullName" class="text-uppercase"></h2>
                         </td>
-                        <td class="text-md-right">
+                        <td class="text-xs-right">
                             <a data-bind="text: github, attr: {href: github}"></a>
                         </td>
                     </tr>
@@ -29,7 +25,7 @@
                             <a data-bind="text: email, attr: {href: 'email:' + email}"></a>
                         </td>
                         <td></td>
-                        <td class="text-md-right"></td>
+                        <td class="text-xs-right"></td>
                     </tr>
                 </table>
             </div>
@@ -39,7 +35,7 @@
                 <thead style="font-weight:bold">
                     <tr>
                         <td style="width:100%">
-                            <div class="row" data-bind="foreach: header">
+                            <div class="row text-uppercase" data-bind="foreach: header">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                     <span data-bind="text: $data"></span>
                                 </div>
@@ -50,7 +46,7 @@
                 <tbody data-bind="foreach: $data.subsections">
                     <tr>
                         <td>
-                            <div class="row" data-bind="foreach: header">
+                            <div class="row" data-bind="foreach: header" style="font-weight:bold">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                     <span data-bind="text: $data"></span>
                                 </div>
@@ -66,6 +62,11 @@
             </table>
         </main>
     </div>
-</body>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/knockout-3.4.0.js"></script>
 <script src="js/resume.js"></script>
+</body>
 </html>

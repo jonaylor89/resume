@@ -72,23 +72,31 @@ function viewModel(){
     ]
 };
 
-function classesFromArray(index, array){
+function classesFromArray(index, array, split){
     let length = array.length;
     let output = "";
-    output += "col-xs-";
-    output += 12/length;
-    console.log(12/length);
+    if(!split){
+        output += "col-xs-";
+        output += 12/length;
+    }
+    else{
+        output += "col-xs-" + split[index];
+    }
+
     if(length == 2){
         if(index==1){
-            output += " text-md-right";
+            output += " text-xs-right";
         }
     }
     if(length == 3){
-        if(index==1){
-            output += " text-md-center";
-        }
-        if(index==2){
-            output += " text-md-right";
+        switch(index){
+            case 1:
+                output += " wide-middle"
+                output += " text-xs-center";
+                break;
+            case 2:
+                output += " text-xs-right";
+                break;
         }
     }
     return output;
@@ -106,15 +114,15 @@ function textAlignFromArray(index, array){
     let output = "";
     if(length == 2){
         if(index==1){
-            output += "text-md-right";
+            output += "text-xs-right";
         }
     }
     if(length == 3){
         if(index==1){
-            output += "text-md-center";
+            output += "text-xs-center";
         }
         if(index==2){
-            output += "text-md-right";
+            output += "text-xs-right";
         }
     }
     return output;
