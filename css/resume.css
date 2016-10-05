@@ -2,31 +2,30 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+.container.print{
     width: 20cm;    /*width of A4 paper is 21 cm but we need to account for padding */
     height: 27.7cm; /*height of A4 paper is 29.7 cm but we need to account for padding */
     margin: 0 auto;
     padding: 1cm .5cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.container{
     max-width: none !important; 
 }
-a{
+.container.print a{
     text-decoration: underline;
 }
-table.section td{
+.container.print table.section td{
     border: none !important;
 }
-table.section thead{
+.container.print table.section thead{
     border-top: 1px solid #444 !important;
     border-bottom: 1px solid #999 !important;
 }
-.top-border-only{
+.container.print .top-border-only{
     border: none;
     border-top:1px;
 }
-.wide-middle span{
+.container.print .wide-middle span{
     position: relative;
     width: 460px;
     left: -50%;

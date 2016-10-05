@@ -18,7 +18,9 @@ function viewModel(){
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "This is the first bullet"
+                        "This is the first bullet",
+                        "This is another bullet",
+                        "The third bullet!"
                     ]
                 },
                 {
