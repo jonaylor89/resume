@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Quark Wei</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/knockout-3.4.0.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/resume.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <table style="width:100%">
+                    <tr>
+                        <td data-bind="text: phone"></td>
+                        <td rowspan="2" class="text-md-center">
+                            <h2 data-bind="text: fullName"></h2>
+                        </td>
+                        <td class="text-md-right">
+                            <a data-bind="text: github, attr: {href: github}"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a data-bind="text: email, attr: {href: 'email:' + email}"></a>
+                        </td>
+                        <td></td>
+                        <td class="text-md-right"></td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+        <main data-bind="foreach: sections" class="row">
+            <table class="table table-sm section">
+                <thead style="font-weight:bold">
+                    <tr>
+                        <td style="width:100%">
+                            <div class="row" data-bind="foreach: header">
+                                <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
+                                    <span data-bind="text: $data"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: $data.subsections">
+                    <tr>
+                        <td>
+                            <div class="row" data-bind="foreach: header">
+                                <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
+                                    <span data-bind="text: $data"></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <ul data-bind="foreach: bullets">
+                                    <li data-bind="text: $data"></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+<script src="js/resume.js"></script>
+</html>

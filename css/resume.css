@@ -1,0 +1,16 @@
+body{
+    width: 21cm;
+    height: 29.7cm;
+    margin: 1cm auto;
+}
+table.section td{
+    border: none !important;
+}
+table.section thead{
+    border-top: 1px solid #999 !important;
+    border-bottom: 1px solid #444 !important;
+}
+.top-border-only{
+    border: none;
+    border-top:1px;
+}
