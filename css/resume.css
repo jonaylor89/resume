@@ -62,7 +62,8 @@ body{
 .container.print .table-sm{
     margin-bottom: 0!important;
 }
-.fa-github {
+.fa.fa-github {
+    font-size: larger;
     line-height: 0px !important;
     color: #000;
     vertical-align: middle;

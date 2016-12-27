@@ -6,6 +6,7 @@ function viewModel(){
     this.phone = "***REMOVED***";
     this.email = "quark.j.wei@gmail.com";
     this.github = "github.com/quarkw";
+    this.website = "bit.ly/q-resume"
 
     this.sections = [
         {
