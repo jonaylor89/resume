@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html moznomarginboxes lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Resume - Quark Wei</title>
@@ -17,7 +17,7 @@
                             <h2 data-bind="text: fullName" class="text-uppercase"></h2>
                         </td>
                         <td class="text-xs-right">
-                            <a data-bind="text: github, attr: {href: 'https:\/\/' + github}"></a>
+                            <a class="octocat" data-bind="text: github, attr: {href: 'https:\/\/' + github}"></a>
                         </td>
                     </tr>
                     <tr>
@@ -30,7 +30,8 @@
                 </table>
             </div>
         </header>
-        <main data-bind="foreach: sections" class="row">
+        <main data-bind="foreach: sections">
+            <div class="row">
             <table class="table table-sm section">
                 <thead style="font-weight:bold">
                     <tr>
@@ -48,7 +49,7 @@
                         <td>
                             <!-- ko if: $data.header != undefined -->
                             <div class="row" data-bind="foreach: header" style="font-weight:bold">
-                                <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
+                                <div data-bind="attr: { class: classesFromArray($index(), $parent.header, false, $parent.github) }">
                                     <span data-bind="html: $data"></span>
                                 </div>
                             </div>
@@ -77,6 +78,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </main>
     </div>
 

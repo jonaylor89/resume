@@ -18,7 +18,12 @@ function viewModel(){
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "Working with other interns and supervisors to create an application with Angular.JS"
+                        "Working with teams within Capital One to port an application from .NET to technologies such as Angular2, MongoDB, and Node"
+                        , [
+                            "Working in a dual-track agile team with two-week-long sprints",
+                            "Created several RESTful API's using the restify framework",
+                            "Created Angular2 components for visualization of data"
+                        ]
                     ]
                 },
                 {
@@ -28,7 +33,12 @@ function viewModel(){
                         "Fall 2014 - Present"
                     ],
                     bullets: [
-                        "Created Idle Actions chrome extension for computer lab security (available on github)"
+                        "Created Idle Actions chrome extension for computer lab security (available on github)",
+                        "Working on an electron app, with knockout.js, to ease the naming and setup of new computer lab machines"
+                        ,[
+                            "Uses active directory for authentication",
+                            "uses Chocolatey to install packages, tying in with proget to pull a list of internal applications"
+                        ]
                     ]
                 },
                 {
@@ -48,7 +58,8 @@ function viewModel(){
                         "Summer 2015"
                     ],
                     bullets: [
-                        "Created a full-stack internal web application to aid in data correction/security that is currently used in production"
+                        "Created a full-stack internal web application, using the spring framework, sql, bootstrap, and jquery to aid in data correction/security"
+                        ,["Currently used in production"]
                     ]
                 }
             ]
@@ -64,14 +75,17 @@ function viewModel(){
                     ],
                     bullets: [
                         "Junior studying Computer Science",
-                        "4.0 GPA",
+                        "3.96 GPA",
+                        ["In-major GPA of 4.0"],
                         "Member of Computer Science Student Advisory Board",
                         [
                             "Help the department choose new faculty members",
-                            "Help out with events for prospective and current computer science students"
+                            "Help out with events, such as local hack day, for prospective and current computer science students",
+                            "Run department wide slack to provide announcements and hub for students to talk"
                         ],
-                        "Invited to be a TA for Intro to Programming, Focused Inquiry 200, and Physics 208"
-                    ]
+                        "Upper Level Courses Taken:"
+                    ],
+                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Intro to Theory of Computation", "Operating Systems", "Software Engeineering", "Algorithms with Advanced Data Structures"]
                 },
                 {
                     header: [
@@ -100,6 +114,7 @@ function viewModel(){
             header: ["Personal Projects"],
             subsections: [
                 {
+                    github: true,
                     header: [
                         "Ram Hacks",
                         "September 2014"
@@ -109,6 +124,20 @@ function viewModel(){
                         [
                             "Won 2nd place overall, and won award for most innovative project"
                         ]
+                    ]
+                },
+                {
+                    github: true,
+                    header: [
+                        "Operating System Simulator",
+                        "Fall 2016"
+                    ],
+                    bullets: [
+                        "Operating System Simulator built in Java",
+                        [
+                            "Won 2nd place overall, and won award for most innovative project"
+                        ],
+                        "Received a 105% in the class when the average and median were both less than 73%"
                     ]
                 }
             ]
@@ -122,7 +151,8 @@ function viewModel(){
                         "Spring 2016 - Present"
                     ],
                     bullets: [
-                        "Contact sponsors, organize transportation, advertising, communication during the event, swag, and prizes"
+                        "Contact sponsors, organize transportation, advertising, communication during the event, swag, and prizes",
+                        "Went around during the event, helping out teams with technical issues"
                     ]
                 },
                 {
@@ -132,7 +162,11 @@ function viewModel(){
                     ],
                     bullets: [
                         "Organize weekly tech-talks by companies and students, and hackthon trips",
-                        "Have given several tech-talks to students"
+                        "Have given several tech-talks to students on several subjects",
+                        [
+                            "Intro to web development: HTML, CSS, Bootstrap, and Emmet",
+                            "How to consume a RESTful API, (used the dark sky API for weather)"
+                        ]
                     ]
                 },
                 {
@@ -151,9 +185,9 @@ function viewModel(){
                     ],
                     bullets: [
                         "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
-                        "Organized bi-weekly practices, performance, expos, and competitions",
+                        "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo",
                         [
-                            "Performed for companies such as Google, Capital One, Suntrust",
+                            "Performed for companies such as Google, Capital One, and Suntrust",
                             "Performed for the 2015 Richmond Heart Ball, which raised $1 Million to help fund programs to prevent and research cardiovascular disease"
                         ]
                     ]
@@ -164,7 +198,7 @@ function viewModel(){
     ]
 };
 
-function classesFromArray(index, array, split){
+function classesFromArray(index, array, split, github){
     let length = array.length;
     let output = "";
     if(!split){
@@ -196,6 +230,7 @@ function classesFromArray(index, array, split){
                 break;
         }
     }
+    if(github && index==0) output += " octocat-sm";
     return output;
 }
 function widthClassFromArray(array){
@@ -224,11 +259,11 @@ function textAlignFromArray(index, array){
     }
     return output;
 }
-function createList(array){
+function createList(array, sort = false){
     array = array.filter((data)=>data!="")
     if(array.length==0)
         return;
-    array.sort();
+    if(sort) array.sort();
     let delimiter = "&emsp;&diams;&emsp;";
     let output = array[0];
     for(let i = 1; i < array.length; i++)

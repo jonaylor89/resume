@@ -1,19 +1,23 @@
 @page  { 
-    margin: 0;
-    padding: 0;
+    margin: 1cm;
     size: A4;
+    overflow:visible;
 }
 @media print{    
     .no-print, .no-print *{
         display: none !important;
     }
+    body{
+        margin:0 !important;
+    }
 }
-
+body{
+    margin:1cm 0;
+}
 .container.print{
     width: 20cm;    /*width of A4 paper is 21 cm but we need to account for padding */
     height: 27.7cm; /*height of A4 paper is 29.7 cm but we need to account for padding */
     margin: 0 auto;
-    padding: 1cm .5cm;
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: none !important; 
 }
@@ -49,4 +53,33 @@
 }
 .container.print .table-sm{
     margin-bottom: 0!important;
+}
+.octocat:before{
+    background-image: url(../images/GitHub-Mark-120px-plus.png);
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -5px;
+    content: "";
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+}
+.octocat-sm:before{
+    background-image: url(../images/GitHub-Mark-120px-plus.png);
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    content: "";
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+.octopad{
+    padding-left: 35px !important;
+}
+thead{
+    page-break-after: avoid;
+}
+tr, .row{
+    page-break-inside: avoid;
 }
