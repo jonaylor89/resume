@@ -17,7 +17,7 @@
                             <h2 data-bind="text: fullName" class="text-uppercase"></h2>
                         </td>
                         <td class="text-xs-right">
-                            <a data-bind="text: github, attr: {href: github}"></a>
+                            <a data-bind="text: github, attr: {href: 'https:\/\/' + github}"></a>
                         </td>
                     </tr>
                     <tr>
@@ -44,17 +44,34 @@
                     </tr>
                 </thead>
                 <tbody data-bind="foreach: $data.subsections">
-                    <tr>
+                    <tr class="subsection">
                         <td>
+                            <!-- ko if: $data.header != undefined -->
                             <div class="row" data-bind="foreach: header" style="font-weight:bold">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
-                                    <span data-bind="text: $data"></span>
+                                    <span data-bind="html: $data"></span>
                                 </div>
                             </div>
-                            <div class="row">
+                            <!-- /ko -->
+                            <div class="row small" data-bind="if: $data.bullets != undefined">
                                 <ul data-bind="foreach: bullets">
+                                    <!-- ko if: typeof $data === "string" -->
                                     <li data-bind="text: $data"></li>
+                                    <!-- /ko -->
+                                    <!-- ko if: $data.constructor === Array -->
+                                    <ul data-bind="foreach: $data">
+                                        <li data-bind="text: $data"></li>
+                                    </ul>
+                                    <!-- /ko -->
                                 </ul>
+                            </div>
+                            <div class="row small" data-bind="if: $data.notes != undefined">
+                                <ul data-bind="foreach: notes" class="italic">
+                                    <li data-bind="text: $data" class="list-inline-item"></li>
+                                </ul>
+                            </div>
+                            <div class="row small font-weight-bold" data-bind="if: $data.list != undefined">
+                                <div class="col-xs-12 text-xs-center" data-bind="html: createList($data.list)"></div>
                             </div>
                         </td>
                     </tr>

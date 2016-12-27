@@ -22,6 +22,7 @@
 }
 .container.print table.section td{
     border: none !important;
+    padding: .2rem .3rem;
 }
 .container.print table.section thead{
     border-top: 1px solid #444 !important;
@@ -36,4 +37,16 @@
     width: 460px;
     left: -50%;
     display: inline-block;
+}
+.container.print .subsection ul{
+    margin-bottom: 0px;
+}
+.container.print .header-aside{
+    font-weight: normal;
+}
+.italic{
+    font-style: italic;
+}
+.container.print .table-sm{
+    margin-bottom: 0!important;
 }
