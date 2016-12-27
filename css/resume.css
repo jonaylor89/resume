@@ -10,6 +10,12 @@
     body{
         margin:0 !important;
     }
+    .octocat:before{
+        background-image: url(../images/GitHub-Mark-120px-plus.png) !important;
+    }
+    .octocat-sm:before{
+        background-image: url(../images/GitHub-Mark-120px-plus.png) !important;
+    }
 }
 body{
     margin:1cm 0;
@@ -29,8 +35,10 @@ body{
     padding: .2rem .3rem;
 }
 .container.print table.section thead{
-    border-top: 1px solid #444 !important;
-    border-bottom: 1px solid #999 !important;
+    border-top: 3px solid #444 !important;
+}
+.container.print table.section tr{
+    border-top: 2px solid #CCC !important;
 }
 .container.print .top-border-only{
     border: none;
@@ -54,8 +62,15 @@ body{
 .container.print .table-sm{
     margin-bottom: 0!important;
 }
+.fa-github {
+    line-height: 0px !important;
+    color: #000;
+    vertical-align: middle;
+    margin-right: 4px;
+}
 .octocat:before{
-    background-image: url(../images/GitHub-Mark-120px-plus.png);
+    -webkit-print-color-adjust: exact;
+    background-image: url(../images/GitHub-Mark-120px-plus.png) !important;
     position: absolute;
     margin-left: -35px;
     margin-top: -5px;
@@ -65,7 +80,8 @@ body{
     height: 32px;
 }
 .octocat-sm:before{
-    background-image: url(../images/GitHub-Mark-120px-plus.png);
+    -webkit-print-color-adjust: exact;
+    background-image: url(../images/GitHub-Mark-120px-plus.png) !important;
     position: relative;
     display: inline-block;
     top: 2px;

@@ -85,7 +85,7 @@ function viewModel(){
                         ],
                         "Upper Level Courses Taken:"
                     ],
-                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Intro to Theory of Computation", "Operating Systems", "Software Engeineering", "Algorithms with Advanced Data Structures"]
+                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds"]
                 },
                 {
                     header: [
@@ -134,9 +134,6 @@ function viewModel(){
                     ],
                     bullets: [
                         "Operating System Simulator built in Java",
-                        [
-                            "Won 2nd place overall, and won award for most innovative project"
-                        ],
                         "Received a 105% in the class when the average and median were both less than 73%"
                     ]
                 }
@@ -269,6 +266,15 @@ function createList(array, sort = false){
     for(let i = 1; i < array.length; i++)
         output += delimiter + array[i];
     return output;
+}
+function getIcon(icon = "", size = ""){
+        if(icon){
+            if(size != ""){
+                return '<i class="fa fa-' + icon + '" aria-hidden="true" style="font-size:' + size + '"></i>';
+            }
+            return '<i class="fa fa-' + icon + '" aria-hidden="true"></i>';
+            }
+        return "";
 }
 
 ko.applyBindings(new viewModel());
