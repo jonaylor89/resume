@@ -35,10 +35,10 @@ function viewModel(){
                     ],
                     bullets: [
                         "Created Idle Actions chrome extension for computer lab security (available on github)",
-                        "Working on an electron app, with knockout.js, to ease the naming and setup of new computer lab machines"
+                        "Working on an electron app, utilizing knockout.js, to ease the naming and setup of new computer lab machines"
                         ,[
                             "Uses active directory for authentication",
-                            "uses Chocolatey to install packages, tying in with proget to pull a list of internal applications"
+                            "uses Chocolatey to install packages, tying in with the proget API to pull a list of internally hosted applications"
                         ]
                     ]
                 },
@@ -59,7 +59,7 @@ function viewModel(){
                         "Summer 2015"
                     ],
                     bullets: [
-                        "Created a full-stack internal web application, using the spring framework, sql, bootstrap, and jquery to aid in data correction/security"
+                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security"
                         ,["Currently used in production"]
                     ]
                 }
@@ -105,9 +105,8 @@ function viewModel(){
             header: ["Skills"],
             subsections: [
                 {
-                    list: ["CSS","HTML5","Javascript","ES6","Angular","Aurelia","Java","Spring",
-                    "Node.JS","Python","Django","Docker","C#","Unity","Android","Knockout.JS",
-                    "Oracle SQL"]
+                    list: ["CSS","HTML5","Javascript","ES6","Node.JS","TypeScript","Angular","Aurelia","Java","C#","Knockout.JS","JavaFX","Spring",
+                    "Python","Django","Docker","Unity","Android","Oracle SQL"]
                 }
             ]
         },
@@ -115,9 +114,9 @@ function viewModel(){
             header: ["Personal Projects"],
             subsections: [
                 {
-                    github: true,
+                    github: "https://github.com/johnheng/Myo",
                     header: [
-                        "Ram Hacks",
+                        "Myo Theremin",
                         "September 2014"
                     ],
                     bullets: [
@@ -128,13 +127,17 @@ function viewModel(){
                     ]
                 },
                 {
-                    github: true,
+                    github: "https://github.com/quarkw/operating-system-simulator",
                     header: [
                         "Operating System Simulator",
                         "Fall 2016"
                     ],
                     bullets: [
                         "Operating System Simulator built in Java",
+                        ["Implements a multi-level priority queue",
+                        "Simulates virtual memory/swapping",
+                        "Implementation of 'cat' for JavaFX based CLI",
+                        "Features adjustable simulation speed"],
                         "Received a 105% in the class when the average and median were both less than 73%"
                     ]
                 }
@@ -192,7 +195,6 @@ function viewModel(){
                 }
             ]
         }
-
     ]
 };
 

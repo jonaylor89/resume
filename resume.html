@@ -53,7 +53,19 @@
                             <!-- ko if: $data.header != undefined -->
                             <div class="row font-weight-bold" data-bind="foreach: header">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
-                                    <span data-bind="html: getIcon(($parent.github && $index() == 0) ? 'github' : '') + $data"></span>
+                                    <!-- ko if: $index() == 0 -->
+                                        <!-- ko if: $parent.github -->
+                                            <a data-bind="attr: {href: $parent.github == true ?  'https:\/\/' + $root.github : $parent.github }">
+                                                <span data-bind="html: getIcon('github') + $data"></span>
+                                            </a>
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: $parent.github -->
+                                            <span data-bind="html: $data"></span>
+                                        <!-- /ko -->
+                                    <!-- /ko -->
+                                    <!--ko ifnot: $index() == 0 -->
+                                        <span data-bind="html: $data"></span>
+                                    <!-- /ko -->
                                 </div>
                             </div>
                             <!-- /ko -->
