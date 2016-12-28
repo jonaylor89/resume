@@ -208,6 +208,9 @@ function classesFromArray(index, array, split, github){
     }
 
     if(length == 2){
+        if(index==0){
+            output += " text-letter-spacing-1px";
+        }
         if(index==1){
             output += " text-xs-right";
         }
@@ -219,7 +222,7 @@ function classesFromArray(index, array, split, github){
                 break;
             case 1:
                 output += " wide-middle"
-                output += " text-xs-center";
+                output += " text-xs-center text-letter-spacing-1px";
                 break;
             case 2:
                 output += " header-aside";
@@ -243,13 +246,16 @@ function textAlignFromArray(index, array){
     let length = array.length;
     let output = "";
     if(length == 2){
+        if(index==0){
+            output += " text-letter-spacing-1px";
+        }
         if(index==1){
             output += "text-xs-right";
         }
     }
     if(length == 3){
         if(index==1){
-            output += "text-xs-center";
+            output += "text-xs-center text-letter-spacing-1px";
         }
         if(index==2){
             output += "text-xs-right";

@@ -77,3 +77,6 @@ thead{
 tr, .row{
     page-break-inside: avoid;
 }
+.text-letter-spacing-1px{
+    letter-spacing: 1px;
+}

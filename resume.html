@@ -16,7 +16,7 @@
                     <tr>
                         <td data-bind="text: phone"></td>
                         <td rowspan="2" class="text-xs-center">
-                            <h2 data-bind="text: fullName" class="text-uppercase"></h2>
+                            <h2 data-bind="text: fullName" class="text-uppercase text-letter-spacing-1px"></h2>
                         </td>
                         <td class="text-xs-right">
                             <a data-bind="html: getIcon('github','32px') + github, attr: {href: 'https:\/\/' + github}"></a>
@@ -39,7 +39,7 @@
                 <thead class="font-weight-bold">
                     <tr>
                         <td class="w-100">
-                            <div class="row text-uppercase" data-bind="foreach: header">
+                            <div class="row text-uppercase text-letter-spacing-1px" data-bind="foreach: header">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                     <span data-bind="text: $data"></span>
                                 </div>
