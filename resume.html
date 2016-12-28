@@ -12,7 +12,7 @@
     <div class="container print">
         <header>
             <div class="row">
-                <table style="width:100%">
+                <table class="w-100">
                     <tr>
                         <td data-bind="text: phone"></td>
                         <td rowspan="2" class="text-xs-center">
@@ -36,9 +36,9 @@
         <main data-bind="foreach: sections">
             <div class="row">
             <table class="table table-sm section">
-                <thead style="font-weight:bold">
+                <thead class="font-weight-bold">
                     <tr>
-                        <td style="width:100%">
+                        <td class="w-100">
                             <div class="row text-uppercase" data-bind="foreach: header">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                     <span data-bind="text: $data"></span>
@@ -51,7 +51,7 @@
                     <tr class="subsection">
                         <td>
                             <!-- ko if: $data.header != undefined -->
-                            <div class="row" data-bind="foreach: header" style="font-weight:bold">
+                            <div class="row font-weight-bold" data-bind="foreach: header">
                                 <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                     <span data-bind="html: getIcon(($parent.github && $index() == 0) ? 'github' : '') + $data"></span>
                                 </div>
