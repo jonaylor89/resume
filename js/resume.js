@@ -3,10 +3,10 @@ function viewModel() {
     this.lastName = "Wei";
     this.fullName = this.firstName + " " + this.lastName;
 
-    this.phone = "***REMOVED***";
+    this.phone = "";
     this.email = "quark.j.wei@gmail.com";
     this.github = "github.com/quarkw";
-    this.website = "bit.ly/q-resume"
+    this.website = "quarkw.github.io/resume/"
 
     this.sections = [{
             header: ["Employment"],
