@@ -1,4 +1,4 @@
-function viewModel(){
+function viewModel() {
     this.firstName = "Quark";
     this.lastName = "Wei";
     this.fullName = this.firstName + " " + this.lastName;
@@ -8,10 +8,21 @@ function viewModel(){
     this.github = "github.com/quarkw";
     this.website = "bit.ly/q-resume"
 
-    this.sections = [
-        {
+    this.sections = [{
             header: ["Employment"],
             subsections: [
+                {
+                    header: [
+                        "Seattle, WA",
+                        "Amazon",
+                        "Summer 2017"
+                    ],
+                    bullets: [
+                        "Accepted into Amazon's 3-month Software Engineering program", [
+                            "If offered to work full-time in Fall 2018, must accept by end of summer (2017)"
+                        ]
+                    ]
+                },
                 {
                     header: [
                         "Richmond, VA",
@@ -19,11 +30,11 @@ function viewModel(){
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "Working with teams within Capital One to port an application from .NET to technologies such as Angular2, MongoDB, and Node"
-                        , [
+                        "Working with teams within Capital One to port an application from .NET to technologies such as Angular2, MongoDB, and Node", [
                             "Working in a dual-track agile team with two-week-long sprints",
                             "Created several RESTful API's using the restify framework",
-                            "Created Angular2 components for visualization of data"
+                            "Created Angular2 components for visualization of data",
+                            "Creatd MongoDB schema as a backing store for the app"
                         ]
                     ]
                 },
@@ -35,8 +46,7 @@ function viewModel(){
                     ],
                     bullets: [
                         "Created Idle Actions chrome extension for computer lab security (available on github)",
-                        "Working on an electron app, utilizing knockout.js, to ease the naming and setup of new computer lab machines"
-                        ,[
+                        "Working on an electron app, utilizing Knockout.js, to ease the naming and setup of new computer lab machines", [
                             "Uses active directory for authentication",
                             "uses Chocolatey to install packages, tying in with the proget API to pull a list of internally hosted applications"
                         ]
@@ -59,16 +69,15 @@ function viewModel(){
                         "Summer 2015"
                     ],
                     bullets: [
-                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security"
-                        ,["Currently used in production"]
+                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security",
+                        ["Currently used in production"]
                     ]
                 }
             ]
         },
         {
             header: ["Education"],
-            subsections: [
-                {
+            subsections: [{
                     header: [
                         "Richmond, VA",
                         "Virginia Commonwealth University",
@@ -76,17 +85,15 @@ function viewModel(){
                     ],
                     bullets: [
                         "Junior studying Computer Science",
-                        "3.96 GPA",
-                        ["In-major GPA of 4.0"],
-                        "Member of Computer Science Student Advisory Board",
-                        [
+                        "In-major GPA of 4.0",
+                        "Member of Computer Science Student Advisory Board", [
                             "Help the department choose new faculty members",
                             "Help out with events, such as local hack day, for prospective and current computer science students",
                             "Run department wide slack to provide announcements and hub for students to talk"
                         ],
                         "Upper Level Courses Taken:"
                     ],
-                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds"]
+                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
                 },
                 {
                     header: [
@@ -103,26 +110,24 @@ function viewModel(){
         },
         {
             header: ["Skills"],
-            subsections: [
-                {
-                    list: ["CSS","HTML5","Javascript","ES6","Node.JS","TypeScript","Angular","Aurelia","Java","C#","Knockout.JS","JavaFX","Spring",
-                    "Python","Django","Docker","Unity","Android","Oracle SQL"]
-                }
-            ]
+            subsections: [{
+                list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "TypeScript", "Angular2", "Aurelia", "C#", "Knockout.JS", "JavaFX", "Spring",
+                    "Python", "Django", "Docker", "Unity", "Android", "Oracle SQL"
+                ]
+            }]
         },
         {
             header: ["Personal Projects"],
-            subsections: [
-                {
-                    github: "https://github.com/johnheng/Myo",
+            subsections: [{
+                    github: "https://github.com/quarkw/resume",
                     header: [
-                        "Myo Theremin",
-                        "September 2014"
+                        "Resume",
+                        ""
                     ],
                     bullets: [
-                        "MIDI synthesizer using the Myo motion control band (available on github)",
-                        [
-                            "Won 2nd place overall, and won award for most innovative project"
+                        "Built using Knockout.JS", ["Printer friendly!",
+                            "Fills in info from JSON",
+                            "Github pages friendly (simple html/js/css)"
                         ]
                     ]
                 },
@@ -133,20 +138,31 @@ function viewModel(){
                         "Fall 2016"
                     ],
                     bullets: [
-                        "Operating System Simulator built in Java",
-                        ["Implements a multi-level priority queue",
-                        "Simulates virtual memory/swapping",
-                        "Implementation of 'cat' for JavaFX based CLI",
-                        "Features adjustable simulation speed"],
+                        "Operating System Simulator built in Java", ["Implements a multi-level priority queue",
+                            "Simulates virtual memory/swapping",
+                            "Implementation of 'cat' for JavaFX based CLI",
+                            "Features adjustable simulation speed"
+                        ],
                         "Received a 105% in the class when the average and median were both less than 73%"
+                    ]
+                },
+                {
+                    github: "https://github.com/johnheng/Myo",
+                    header: [
+                        "Myo Theremin",
+                        "September 2014"
+                    ],
+                    bullets: [
+                        "MIDI synthesizer using the Myo motion control band (available on github)", [
+                            "Won 2nd place overall, and won award for most innovative project"
+                        ]
                     ]
                 }
             ]
         },
         {
             header: ["Leadership"],
-            subsections: [
-                {
+            subsections: [{
                     header: [
                         "RamHacks Organizer",
                         "Spring 2016 - Present"
@@ -163,8 +179,7 @@ function viewModel(){
                     ],
                     bullets: [
                         "Organize weekly tech-talks by companies and students, and hackthon trips",
-                        "Have given several tech-talks to students on several subjects",
-                        [
+                        "Have given several tech-talks to students on several subjects", [
                             "Intro to web development: HTML, CSS, Bootstrap, and Emmet",
                             "How to consume a RESTful API, (used the dark sky API for weather)"
                         ]
@@ -186,8 +201,7 @@ function viewModel(){
                     ],
                     bullets: [
                         "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
-                        "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo",
-                        [
+                        "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo", [
                             "Performed for companies such as Google, Capital One, and Suntrust",
                             "Performed for the 2015 Richmond Heart Ball, which raised $1 Million to help fund programs to prevent and research cardiovascular disease"
                         ]
@@ -198,27 +212,26 @@ function viewModel(){
     ]
 };
 
-function classesFromArray(index, array, split, github){
+function classesFromArray(index, array, split, github) {
     let length = array.length;
     let output = "";
-    if(!split){
+    if (!split) {
         output += "col-xs-";
-        output += 12/length;
-    }
-    else{
+        output += 12 / length;
+    } else {
         output += "col-xs-" + split[index];
     }
 
-    if(length == 2){
-        if(index==0){
+    if (length == 2) {
+        if (index == 0) {
             output += " text-letter-spacing-1px";
         }
-        if(index==1){
+        if (index == 1) {
             output += " text-xs-right";
         }
     }
-    if(length == 3){
-        switch(index){
+    if (length == 3) {
+        switch (index) {
             case 0:
                 output += " header-aside";
                 break;
@@ -233,57 +246,154 @@ function classesFromArray(index, array, split, github){
                 break;
         }
     }
-    if(github && index==0) output += " octocat-sm";
+    if (github && index == 0) output += " octocat-sm";
     return output;
 }
-function widthClassFromArray(array){
+
+function widthClassFromArray(array) {
     let length = array.length;
     let output = "";
     output += "col-xs-";
-    output += 12/length;
-    console.log(12/length);
+    output += 12 / length;
+    console.log(12 / length);
     return output;
 }
-function textAlignFromArray(index, array){
+
+function textAlignFromArray(index, array) {
     let length = array.length;
     let output = "";
-    if(length == 2){
-        if(index==0){
+    if (length == 2) {
+        if (index == 0) {
             output += " text-letter-spacing-1px";
         }
-        if(index==1){
+        if (index == 1) {
             output += "text-xs-right";
         }
     }
-    if(length == 3){
-        if(index==1){
+    if (length == 3) {
+        if (index == 1) {
             output += "text-xs-center text-letter-spacing-1px";
         }
-        if(index==2){
+        if (index == 2) {
             output += "text-xs-right";
         }
     }
     return output;
 }
-function createList(array, sort = false){
-    array = array.filter((data)=>data!="")
-    if(array.length==0)
+
+function createList(array, sort = false) {
+    array = array.filter((data) => data != "")
+    if (array.length == 0)
         return;
-    if(sort) array.sort();
+    if (sort) array.sort();
     let delimiter = "&emsp;&diams;&emsp;";
-    let output = array[0];
-    for(let i = 1; i < array.length; i++)
-        output += delimiter + array[i];
+    delimiter = "<span class='delimiter'>" + delimiter + "</span>";
+    let output = "<span>" + array[0] + "</span>";
+    for (let i = 1; i < array.length; i++)
+        output += delimiter + "<span>" + array[i] + "</span>";
     return output;
 }
-function getIcon(icon = "", size = ""){
-        if(icon){
-            if(size != ""){
-                return '<i class="fa fa-' + icon + '" aria-hidden="true" style="font-size:' + size + '"></i>';
+
+function getIcon(icon = "", size = "") {
+    if (icon) {
+        if (size != "") {
+            return '<i class="fa fa-' + icon + '" aria-hidden="true" style="font-size:' + size + '"></i>';
+        }
+        return '<i class="fa fa-' + icon + '" aria-hidden="true"></i>';
+    }
+    return "";
+}
+
+ko.bindingHandlers.trimList = {
+    init: function(element) {},
+    update: function(list) {
+        let previous;
+        $(list).children().each((index, span) => {
+            if (index == 0) previous = $(span);
+            if ($(span).offset().top != previous.offset().top) {
+                //previous was on the previous Line
+                if (previous.is(".delimiter")) { //If it was a delimiter, let's hide it
+                    let prevTop = previous.offset().top;
+                    // console.log("| " + previous.offset().top)
+                    previous.hide();
+                    // console.log(previous.offset().top + " |")
+                    if($(span).offset().top == prevTop){
+                        $(span).before("</br>");
+                    }
+                } else { //If it was not a delimiter, then we hide current IF the text didn't wrap
+                    $(span).hide();
+                }
             }
-            return '<i class="fa fa-' + icon + '" aria-hidden="true"></i>';
+            previous = $(span);
+            console.log($(span).offset().top);
+        });
+    }
+}
+ko.bindingHandlers.handlePageBreak = {
+    init: function(element) {},
+    update: function(list,value){
+        if(!value()) return;
+        let pageHeight = 1047;
+        let pageTop = 0;
+        $("main").children().each( (index,div) => {
+            let divBottom = $(div).offset().top + $(div).height();
+            console.log(div);
+            console.log(divBottom);
+            if(divBottom > pageTop + pageHeight){
+                $(div).find("table").addClass("after-page-break");
+                pageTop += pageHeight;
             }
-        return "";
+        });
+    }
 }
 
 ko.applyBindings(new viewModel());
+
+// window.onload = function() {
+//     convertToPDF(document.documentElement.outerHTML);
+// }
+
+function convertToPDF(content) {
+    // Create new PDFreactor instance
+    // var pdfReactor = new PDFreactor("http://yourServer:9423/service/rest");
+    var pdfReactor = new PDFreactor();
+    // Create a new PDFreactor configuration object
+
+    var config = {
+        // Specify the input document
+        document: content,
+        // Set a base URL for images, style sheets, links
+        baseURL: window.location.href,
+        // Set an appropriate log level
+        logLevel: PDFreactor.LogLevel.WARN,
+        // Set the title of the created PDF
+        title: "Demonstration of the PDFreactor JavaScript API",
+        // Set the author of the created PDF
+        author: "Myself",
+        // Enable links in the PDF document
+        addLinks: true,
+    }
+
+    // Render document and save result
+    pdfReactor.convert(config, function(result) {
+        console.log(result);
+        downloadPdf('resune.pdf', result.document);
+    }, function(error) {
+        document.body.innerHTML = "<h1>An Error Has Occurred</h1>" +
+            "<h2>" + error + "</h2>";
+    });
+}
+
+function downloadPdf(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:application/pdf;base64,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+
+    if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    } else {
+        pom.click();
+    }
+}
