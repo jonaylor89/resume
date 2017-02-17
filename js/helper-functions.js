@@ -80,12 +80,14 @@ function createList(array, sort = false) {
     return output;
 }
 
-function getIcon(icon = "", size = "") {
+function getIcon(icon = "", color = "", size = "") {
+    console.log(icon);
     if (icon) {
-        if (size != "") {
-            return '<i class="fa fa-' + icon + '" aria-hidden="true" style="font-size:' + size + '"></i>';
-        }
-        return '<i class="fa fa-' + icon + '" aria-hidden="true"></i>';
+        let html = '<i class="black fa fa-' + icon + '" aria-hidden="true" style="';
+        html += size ? "font-size: " + size + ";" : "";
+        html += color ? "color: " + color + ";" : ""; 
+        html += '"></i>';
+        return html;
     }
     return "";
 }

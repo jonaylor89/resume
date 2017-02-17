@@ -25,7 +25,7 @@
                             <h2 data-bind="text: fullName" class="text-uppercase text-letter-spacing-1px"></h2>
                         </td>
                         <td class="text-xs-right">
-                            <a data-bind="html: getIcon('github','32px') + github, attr: {href: 'https:\/\/' + github}"></a>
+                            <a data-bind="html: getIcon('github','black','32px') + github, attr: {href: 'https:\/\/' + github}"></a>
                         </td>
                     </tr>
                     <tr>
@@ -60,13 +60,13 @@
                                 <div class="row font-weight-bold" data-bind="foreach: header">
                                     <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
                                         <!-- ko if: $index() == 0 -->
-                                        <!-- ko if: $parent.github -->
-                                        <a data-bind="attr: {href: $parent.github == true ?  'https:\/\/' + $root.github : $parent.github }">
-                                            <span data-bind="html: getIcon('github') + $data"></span>
-                                        </a>
+                                        <!-- ko if: $parent.decorators && $parent.decorators.url -->
+                                            <a data-bind="attr: {href: $parent.decorators.url }">
+                                                <span data-bind="html: getIcon($parent.decorators ? $parent.decorators.icon : '','black') + $data"></span>
+                                            </a>
                                         <!-- /ko -->
-                                        <!-- ko ifnot: $parent.github -->
-                                        <span data-bind="html: $data"></span>
+                                        <!-- ko ifnot: $parent.decorators && $parent.decorators.url -->
+                                        <span data-bind="html: getIcon($parent.decorators ? $parent.decorators.icon : '','black') + $data"></span>
                                         <!-- /ko -->
                                         <!-- /ko -->
                                         <!--ko ifnot: $index() == 0 -->

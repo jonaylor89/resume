@@ -119,7 +119,10 @@ function viewModel() {
         {
             header: ["Personal Projects"],
             subsections: [{
-                    github: "https://github.com/quarkw/resume",
+                    decorators: {
+                        icon: "github",
+                        url: "https://github.com/quarkw/resume"
+                    },
                     header: [
                         "Resume",
                         ""
@@ -132,7 +135,10 @@ function viewModel() {
                     ]
                 },
                 {
-                    github: "https://github.com/quarkw/operating-system-simulator",
+                    decorators: {
+                        icon: "github",
+                        url: "https://github.com/quarkw/operating-system-simulator"
+                    },
                     header: [
                         "Operating System Simulator",
                         "Fall 2016"
@@ -147,7 +153,10 @@ function viewModel() {
                     ]
                 },
                 {
-                    github: "https://github.com/johnheng/Myo",
+                    decorators: {
+                        icon: "github",
+                        url: "https://github.com/johnheng/Myo"
+                    },
                     header: [
                         "Myo Theremin",
                         "September 2014"
