@@ -25,7 +25,7 @@ The sections is an object with a `header` property, and an array of subsections:
 Subsections are objects with a `header` property, and any combination of the following properties:
 * bullets
 * list
-* github
+* decorators
 
 Some notes:
 * A subsection header takes an array of length 1-3.
@@ -52,7 +52,14 @@ Some notes:
     list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
 }
 ```
-
+### Decorators
+Decorators can be applied to subsections to link out to webpages, and provide some contextual info with an icon. Any [http://fontawesome.io/icons/](Font Awesome) icon should work.
+```js
+decorators: {
+  icon: "github",
+  url: "https://github.com/quarkw/resume"
+}
+```
 
 # Features
 * Works with github pages
@@ -60,7 +67,6 @@ Some notes:
   * The experimental (disabled by default) PDFreactor support works, but the free personal licensed version puts a watermark on the topright of every page, and I don't feel like shelling out $2950
 
 # Todo
-* Separate info into separate .js file.
 * Refactor x10
 
 # Contributing
