@@ -14,12 +14,12 @@ function viewModel() {
                 {
                     header: [
                         "Seattle, WA",
-                        "Amazon",
+                        "Amazon AWS EC2",
                         "Summer 2017"
                     ],
                     bullets: [
                         "Accepted into Amazon's 3-month Software Engineering program", [
-                            "If offered to work full-time in Fall 2018, must accept by end of summer (2017)"
+                            "If offered to work full-time in Fall 2018, must accept by end of summer 2017"
                         ]
                     ]
                 },
@@ -30,7 +30,7 @@ function viewModel() {
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "Working with teams within Capital One to port an application from .NET to technologies such as Angular2, MongoDB, and Node", [
+                        "Working with teams within Capital One to create a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
                             "Working in a dual-track agile team with two-week-long sprints",
                             "Created several RESTful API's using the restify framework",
                             "Created Angular2 components for visualization of data",
