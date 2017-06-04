@@ -8,10 +8,10 @@ This resume is based on this [wonderful advice from LifeClever](http://www.lifec
 # Usage
 * Fork/clone this, and replace the info in resume.js with your own!
 
-##Header info
+## Header info
 The first few lines of the view model is self-explanatory. I don't recommend putting your phone number in there, if you'll be putting this online.
 
-##Sections
+## Sections
 The sections property requires a little more explanation
 
 The sections is an object with a `header` property, and an array of subsections:
@@ -21,7 +21,7 @@ The sections is an object with a `header` property, and an array of subsections:
   subsections: []
 }
 ```
-##Subsections
+## Subsections
 Subsections are objects with a `header` property, and any combination of the following properties:
 * bullets
 * list
