@@ -20,9 +20,9 @@
             <div class="row">
                 <table class="w-100">
                     <tr>
-                        <td data-bind="text: phone"></td>
+                        <td data-bind="html: phone"></td>
                         <td rowspan="2" class="text-xs-center">
-                            <h2 data-bind="text: fullName" class="text-uppercase text-letter-spacing-1px"></h2>
+                            <h2 data-bind="html: fullName" class="text-uppercase text-letter-spacing-1px"></h2>
                         </td>
                         <td class="text-xs-right">
                             <a data-bind="html: getIcon('github','black','32px') + github, attr: {href: 'https:\/\/' + github}"></a>
@@ -30,31 +30,31 @@
                     </tr>
                     <tr>
                         <td>
-                            <a data-bind="text: email, attr: {href: 'email:' + email}"></a>
+                            <a data-bind="html: email, attr: {href: 'email:' + email}"></a>
                         </td>
                         <td class="text-xs-right">
-                            <a data-bind="text: website, attr: {href: 'http:\/\/' + website}"></a>
+                            <a data-bind="html: website, attr: {href: 'http:\/\/' + website}"></a>
                         </td>
                     </tr>
                 </table>
             </div>
         </header>
         <main data-bind="foreach: sections, handlePageBreak: false">
-            <div class="row">
+            <div class="row" data-bind="css: { 'no-print': $data.noPrint }">
                 <table class="table table-sm section">
                     <thead class="font-weight-bold">
                         <tr>
                             <td class="w-100">
                                 <div class="row text-uppercase text-letter-spacing-1px" data-bind="foreach: header">
                                     <div data-bind="attr: { class: classesFromArray($index(), $parent.header) }">
-                                        <span data-bind="text: $data"></span>
+                                        <span data-bind="html: $data"></span>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                     </thead>
                     <tbody data-bind="foreach: $data.subsections">
-                        <tr class="subsection">
+                        <tr class="subsection" data-bind="css: { 'no-print': $data.noPrint }">
                             <td>
                                 <!-- ko if: $data.header != undefined -->
                                 <div class="row font-weight-bold" data-bind="foreach: header">
@@ -78,18 +78,18 @@
                                 <div class="row small" data-bind="if: $data.bullets != undefined">
                                     <ul data-bind="foreach: bullets">
                                         <!-- ko if: typeof $data === "string" -->
-                                        <li data-bind="text: $data"></li>
+                                        <li data-bind="html: removeMarkup($data), css: { 'no-print': shouldHide($data) }"></li>
                                         <!-- /ko -->
                                         <!-- ko if: $data.constructor === Array -->
                                         <ul data-bind="foreach: $data">
-                                            <li data-bind="text: $data"></li>
+                                            <li data-bind="html: removeMarkup($data), css: { 'no-print': shouldHide($data) }"></li>
                                         </ul>
                                         <!-- /ko -->
                                     </ul>
                                 </div>
                                 <div class="row small" data-bind="if: $data.notes != undefined">
                                     <ul data-bind="foreach: notes" class="font-italic">
-                                        <li data-bind="text: $data" class="list-inline-item"></li>
+                                        <li data-bind="html: removeMarkup($data), css: { 'no-print': shouldHide($data) }" class="list-inline-item"></li>
                                     </ul>
                                 </div>
                                 <div class="row small font-weight-bold" data-bind="if: $data.list != undefined">

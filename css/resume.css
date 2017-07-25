@@ -23,6 +23,9 @@
     .no-print, .alert{
         display: none !important;
     }
+    li:not(:last-child){
+        margin-bottom: -1px;
+    }
 }
 
 @page {

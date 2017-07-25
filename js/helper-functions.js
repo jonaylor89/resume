@@ -41,7 +41,7 @@ function widthClassFromArray(array) {
     let output = "";
     output += "col-xs-";
     output += 12 / length;
-    console.log(12 / length);
+    // console.log(12 / length);
     return output;
 }
 
@@ -81,7 +81,7 @@ function createList(array, sort = false) {
 }
 
 function getIcon(icon = "", color = "", size = "") {
-    console.log(icon);
+    // console.log(icon);
     if (icon) {
         let html = '<i class="black fa fa-' + icon + '" aria-hidden="true" style="';
         html += size ? "font-size: " + size + ";" : "";
@@ -90,6 +90,17 @@ function getIcon(icon = "", color = "", size = "") {
         return html;
     }
     return "";
+}
+
+function removeMarkup(s){
+    if(shouldHide(s)){
+        return s.substring(1);
+    }
+    return s;
+}
+
+function shouldHide(s){
+    return s.startsWith("~");
 }
 
 ko.bindingHandlers.trimList = {
@@ -113,7 +124,7 @@ ko.bindingHandlers.trimList = {
                 }
             }
             previous = $(span);
-            console.log($(span).offset().top);
+            // console.log($(span).offset().top);
         });
     }
 }
@@ -125,8 +136,8 @@ ko.bindingHandlers.handlePageBreak = {
         let pageTop = 0;
         $("main").children().each( (index,div) => {
             let divBottom = $(div).offset().top + $(div).height();
-            console.log(div);
-            console.log(divBottom);
+            // console.log(div);
+            // console.log(divBottom);
             if(divBottom > pageTop + pageHeight){
                 $(div).find("table").addClass("after-page-break");
                 pageTop += pageHeight;
@@ -164,7 +175,7 @@ function convertToPDF(content) {
 
     // Render document and save result
     pdfReactor.convert(config, function(result) {
-        console.log(result);
+        // console.log(result);
         downloadPdf('resune.pdf', result.document);
     }, function(error) {
         document.body.innerHTML = "<h1>An Error Has Occurred</h1>" +
