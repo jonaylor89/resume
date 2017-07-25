@@ -18,8 +18,8 @@ function viewModel() {
                         "Summer 2017"
                     ],
                     bullets: [
-                        "Accepted into Amazon's 3-month Software Engineering program", [
-                            "If offered to work full-time in Fall 2018, must accept by end of summer 2017"
+                        "Created a data-visualization dashboard to track capacity of servers in EC2 that processes terabytes of data", [
+                            "Created a service to constantly process data dumps in S3 located across multiple AWS regions"
                         ]
                     ]
                 },
@@ -30,25 +30,24 @@ function viewModel() {
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "Working with teams within Capital One to create a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
-                            "Working in a dual-track agile team with two-week-long sprints",
-                            "Created several RESTful API's using the restify framework",
-                            "Created Angular2 components for visualization of data",
-                            "Creatd MongoDB schema as a backing store for the app"
+                        "Created a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
+                            "~Working on a dual-track agile team with two-week-long sprints",
+                            "~Created Angular2 components for visualization of data",
+                            "Designed MongoDB schema for the app and created a RESTful API to restrict access to the database"
                         ]
                     ]
                 },
                 {
                     header: [
                         "Richmond, VA",
-                        "Virginia Commonwealth University",
+                        "VCU Labs & Classrooms Computing ",
                         "Fall 2014 - Present"
                     ],
                     bullets: [
-                        "Created Idle Actions chrome extension for computer lab security (available on github)",
+                        "Created Idle Actions chrome extension for computer lab security",
                         "Working on an electron app, utilizing Knockout.js, to ease the naming and setup of new computer lab machines", [
                             "Uses active directory for authentication",
-                            "uses Chocolatey to install packages, tying in with the proget API to pull a list of internally hosted applications"
+                            "Uses Chocolatey to install packages, tying in with the Proget API to pull a list of internally hosted applications"
                         ]
                     ]
                 },
@@ -69,8 +68,7 @@ function viewModel() {
                         "Summer 2015"
                     ],
                     bullets: [
-                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security",
-                        ["Currently used in production"]
+                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security, which is currently used in production"
                     ]
                 }
             ]
@@ -84,12 +82,10 @@ function viewModel() {
                         "Fall 2014 - May 2018"
                     ],
                     bullets: [
-                        "Junior studying Computer Science",
-                        "In-major GPA of 4.0",
-                        "Member of Computer Science Student Advisory Board", [
+                        "Senior studying Computer Science with in-major GPA of 4.0",
+                        "Vice President of Computer Science Student Advisory Board", [
                             "Help the department choose new faculty members",
-                            "Help out with events, such as local hack day, for prospective and current computer science students",
-                            "Run department wide slack to provide announcements and hub for students to talk"
+                            "Help out with events, such as local hack day, for prospective and current computer science students"
                         ],
                         "Upper Level Courses Taken:"
                     ],
@@ -108,17 +104,32 @@ function viewModel() {
                 }
             ]
         },
-        {
-            header: ["Skills"],
-            subsections: [{
-                list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "TypeScript", "Angular2", "Aurelia", "C#", "Knockout.JS", "JavaFX", "Spring",
-                    "Python", "Django", "Docker", "Unity", "Android", "Oracle SQL"
-                ]
-            }]
-        },
+        // {
+        //     header: ["Skills"],
+        //     subsections: [{
+        //         list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "TypeScript", "Angular2", "Aurelia", "C#", "Knockout.JS", "JavaFX", "Spring",
+        //             "Python", "Django", "Docker", "Unity", "Android", "Oracle SQL"
+        //         ]
+        //     }]
+        // },
         {
             header: ["Personal Projects"],
-            subsections: [{
+            subsections: [
+                {
+                    decorators: {
+                        icon: "github",
+                        url: "https://github.com/asakaplan/Bitcamp2017"
+                    },
+                    header: [
+                        "FinProp",
+                        "Spring 2017"
+                    ],
+                    bullets: [
+                        "Won <a href='https://devpost.com/software/financial-ethics-propagator'>2nd place</a> for Finra challenge at Bitcamp 2017",
+                        "Uses machine learning to discover circles of corruption among financial adviors based on publicly available data"
+                    ]
+                },
+                {
                     decorators: {
                         icon: "github",
                         url: "https://github.com/quarkw/resume"
@@ -128,9 +139,10 @@ function viewModel() {
                         ""
                     ],
                     bullets: [
-                        "Built using Knockout.JS", ["Printer friendly!",
-                            "Fills in info from JSON",
-                            "Github pages friendly (simple html/js/css)"
+                        "Built using Knockout.JS", [
+                            "~Printer friendly!",
+                            // "Fills in info from JSON",
+                            // "Github pages friendly (simple html/js/css)"
                         ]
                     ]
                 },
@@ -144,15 +156,17 @@ function viewModel() {
                         "Fall 2016"
                     ],
                     bullets: [
-                        "Operating System Simulator built in Java", ["Implements a multi-level priority queue",
+                        "Operating System Simulator built in Java", [
+                            "Implements a multi-level priority queue",
                             "Simulates virtual memory/swapping",
                             "Implementation of 'cat' for JavaFX based CLI",
                             "Features adjustable simulation speed"
                         ],
-                        "Received a 105% in the class when the average and median were both less than 73%"
+                        "~Received a 105% in the class when the average and median were both less than 73%"
                     ]
                 },
                 {
+                    noPrint: true,
                     decorators: {
                         icon: "github",
                         url: "https://github.com/johnheng/Myo"
@@ -162,7 +176,7 @@ function viewModel() {
                         "September 2014"
                     ],
                     bullets: [
-                        "MIDI synthesizer using the Myo motion control band (available on github)", [
+                        "MIDI synthesizer using the Myo motion control band", [
                             "Won 2nd place overall, and won award for most innovative project"
                         ]
                     ]
@@ -170,6 +184,7 @@ function viewModel() {
             ]
         },
         {
+            noPrint: true,
             header: ["Leadership"],
             subsections: [{
                     header: [
@@ -212,7 +227,7 @@ function viewModel() {
                         "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
                         "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo", [
                             "Performed for companies such as Google, Capital One, and Suntrust",
-                            "Performed for the 2015 Richmond Heart Ball, which raised $1 Million to help fund programs to prevent and research cardiovascular disease"
+                            "Performed for the 2015 Richmond Heart Ball, which raised $1 million to help fund programs to prevent and research cardiovascular disease"
                         ]
                     ]
                 }
