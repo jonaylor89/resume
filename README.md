@@ -17,10 +17,14 @@ The sections property requires a little more explanation
 The sections is an object with a `header` property, and an array of subsections:
 ```js
 {
-  header: ["Employment"],
-  subsections: []
+    noPrint: false,
+    header: ["Employment"],
+    subsections: []
 }
 ```
+
+If you want to hide a section for print, change `noPrint` to true.
+
 ## Subsections
 Subsections are objects with a `header` property, and any combination of the following properties:
 * bullets
@@ -30,10 +34,12 @@ Subsections are objects with a `header` property, and any combination of the fol
 Some notes:
 * A subsection header takes an array of length 1-3.
 * Bullets is an array of strings, with the option of having sub-bullets, but these only go one level deep
+  * If you want to hide a bullet, put `~` at the beginning of the bullet string.
 * List takes an array of strings. My js magic should format it so there are no delimiters at the end or beginning of a line
 * If you want a github icon, as well as have the header link to your github repo, add the url to the github property
 ```js
 {
+    noPrint: true
     header: [
         "Richmond, VA",
         "Virginia Commonwealth University",
@@ -52,6 +58,9 @@ Some notes:
     list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
 }
 ```
+
+If you want to hide a subsection for print, change `noPrint` to true.
+
 ### Decorators
 Decorators can be applied to subsections to link out to webpages, and provide some contextual info with an icon. Any [http://fontawesome.io/icons/](Font Awesome) icon should work.
 ```js
@@ -63,7 +72,7 @@ decorators: {
 
 # Features
 * Works with github pages
-* Print support (paged media support in modern web browsers doesn't seem to be modern enough)
+* Print support (paged media support in modern web browsers isn't modern enough for custom print headers/footers)
   * The experimental (disabled by default) PDFreactor support works, but the free personal licensed version puts a watermark on the topright of every page, and I don't feel like shelling out $2950
 
 # Todo
