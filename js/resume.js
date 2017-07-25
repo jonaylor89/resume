@@ -68,7 +68,7 @@ function viewModel() {
                         "Summer 2015"
                     ],
                     bullets: [
-                        "Created a full-stack internal web application, using the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security, which is currently used in production"
+                        "Created an internal-use full stack web application with the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security–currently used in production."
                     ]
                 }
             ]
