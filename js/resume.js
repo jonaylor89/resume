@@ -18,8 +18,9 @@ function viewModel() {
                         "Summer 2017"
                     ],
                     bullets: [
-                        "Created a data-visualization dashboard to track capacity of servers in EC2 that processes terabytes of data", [
-                            "Created a service to constantly process data dumps in S3 located across multiple AWS regions"
+                        "Created a data-visualization dashboard to track capacity of servers in EC2, that processes hundreds of GB of new data per day", [
+                            "Created a service to constantly process data dumps in S3 located across multiple AWS regions",
+                            "Used by managers to gain useful business insights into EC2 status, which previously required digging through slow and scattered web pages"
                         ]
                     ]
                 },
@@ -31,7 +32,7 @@ function viewModel() {
                     ],
                     bullets: [
                         "Created a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
-                            "~Working on a dual-track agile team with two-week-long sprints",
+                            "~Worked on a dual-track agile team with two-week-long sprints",
                             "~Created Angular2 components for visualization of data",
                             "Designed MongoDB schema for the app and created a RESTful API to restrict access to the database"
                         ]
@@ -41,26 +42,26 @@ function viewModel() {
                     header: [
                         "Richmond, VA",
                         "VCU Labs & Classrooms Computing ",
-                        "Fall 2014 - Present"
+                        "Fall 2014 - Spring 2017"
                     ],
                     bullets: [
                         "Created Idle Actions chrome extension for computer lab security",
-                        "Working on an electron app, utilizing Knockout.js, to ease the naming and setup of new computer lab machines", [
+                        "Worked on an electron app, utilizing Knockout.js, to ease the naming and setup of new computer lab machines", [
                             "Uses active directory for authentication",
                             "Uses Chocolatey to install packages, tying in with the Proget API to pull a list of internally hosted applications"
                         ]
                     ]
                 },
-                {
-                    header: [
-                        "Midlothian, VA",
-                        "PIE Tech",
-                        "Summer 2016"
-                    ],
-                    bullets: [
-                        "Created several single page web-apps using the Aurelia framework"
-                    ]
-                },
+                // {
+                //     header: [
+                //         "Midlothian, VA",
+                //         "PIE Tech",
+                //         "Summer 2016"
+                //     ],
+                //     bullets: [
+                //         "Created several single page web-apps using the Aurelia framework"
+                //     ]
+                // },
                 {
                     header: [
                         "Richmond, VA",
@@ -84,12 +85,13 @@ function viewModel() {
                     bullets: [
                         "Senior studying Computer Science with in-major GPA of 4.0",
                         "Vice President of Computer Science Student Advisory Board", [
-                            "Help the department choose new faculty members",
-                            "Help out with events, such as local hack day, for prospective and current computer science students"
+                            "~Help the department choose new faculty members",
+                            "~Help out with events, such as local hack day, for prospective and current computer science students"
                         ],
-                        "Upper Level Courses Taken:"
+                        // "Favorite Courses Taken:"
                     ],
-                    list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
+                    // list: ["Theory of Computation", "Operating Systems", "Interactive Virtual Worlds"],
+                    // list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
                 },
                 {
                     header: [
@@ -113,7 +115,7 @@ function viewModel() {
         //     }]
         // },
         {
-            header: ["Personal Projects"],
+            header: ["Prominent Projects"],
             subsections: [
                 {
                     decorators: {
@@ -129,23 +131,23 @@ function viewModel() {
                         "Uses machine learning to discover circles of corruption among financial adviors based on publicly available data"
                     ]
                 },
-                {
-                    decorators: {
-                        icon: "github",
-                        url: "https://github.com/quarkw/resume"
-                    },
-                    header: [
-                        "Resume",
-                        ""
-                    ],
-                    bullets: [
-                        "Built using Knockout.JS", [
-                            "~Printer friendly!",
-                            // "Fills in info from JSON",
-                            // "Github pages friendly (simple html/js/css)"
-                        ]
-                    ]
-                },
+                // {
+                //     decorators: {
+                //         icon: "github",
+                //         url: "https://github.com/quarkw/resume"
+                //     },
+                //     header: [
+                //         "Resume",
+                //         ""
+                //     ],
+                //     bullets: [
+                //         "Built using Knockout.JS", [
+                //             "~Printer friendly!",
+                //             // "Fills in info from JSON",
+                //             // "Github pages friendly (simple html/js/css)"
+                //         ]
+                //     ]
+                // },
                 {
                     decorators: {
                         icon: "github",
@@ -180,7 +182,17 @@ function viewModel() {
                             "Won 2nd place overall, and won award for most innovative project"
                         ]
                     ]
-                }
+                },
+                {
+                    header: ["Personal Life Hacks"],
+                    bullets: [
+                        "Created script to watch full-classes and auto-register when a space opens up",
+                        "Created a browser extension to integrate ratemyprofessor into class scheduling system",
+                            ["Ability to filter sections to only those taught by professors above a certain rating"],
+                        "Create program for IoT device as a daily habit reminder",
+                        "Created a Twilio app for my apartment callbox so I can access my apartment building if I don't have my key fob and phone"
+                    ]
+                },
             ]
         },
         {
@@ -218,19 +230,19 @@ function viewModel() {
                         "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
                     ]
                 },
-                {
-                    header: [
-                        "President of Lion Dance Club",
-                        "Fall 2015 - Fall 2016"
-                    ],
-                    bullets: [
-                        "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
-                        "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo", [
-                            "Performed for companies such as Google, Capital One, and Suntrust",
-                            "Performed for the 2015 Richmond Heart Ball, which raised $1 million to help fund programs to prevent and research cardiovascular disease"
-                        ]
-                    ]
-                }
+                // {
+                //     header: [
+                //         "President of Lion Dance Club",
+                //         "Fall 2015 - Fall 2016"
+                //     ],
+                //     bullets: [
+                //         "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
+                //         "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo", [
+                //             "Performed for companies such as Google, Capital One, and Suntrust",
+                //             "Performed for the 2015 Richmond Heart Ball, which raised $1 million to help fund programs to prevent and research cardiovascular disease"
+                //         ]
+                //     ]
+                // }
             ]
         }
     ]
