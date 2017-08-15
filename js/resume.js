@@ -149,22 +149,13 @@ function viewModel() {
                 //     ]
                 // },
                 {
-                    decorators: {
-                        icon: "github",
-                        url: "https://github.com/quarkw/operating-system-simulator"
-                    },
-                    header: [
-                        "Operating System Simulator",
-                        "Fall 2016"
-                    ],
+                    header: ["Personal Life Hacks"],
                     bullets: [
-                        "Operating System Simulator built in Java", [
-                            "Implements a multi-level priority queue",
-                            "Simulates virtual memory/swapping",
-                            "Implementation of 'cat' for JavaFX based CLI",
-                            "Features adjustable simulation speed"
-                        ],
-                        "~Received a 105% in the class when the average and median were both less than 73%"
+                        "Created script to watch full-classes and auto-register when a space opens up",
+                        "Created a browser extension to integrate ratemyprofessor into class scheduling system",
+                            ["Ability to filter sections to only those taught by professors above a certain rating"],
+                        "Create program for IoT device as a daily habit reminder",
+                        "Created a Twilio app for my apartment callbox so I can access my apartment building if I don't have my key fob and phone"
                     ]
                 },
                 {
@@ -184,13 +175,22 @@ function viewModel() {
                     ]
                 },
                 {
-                    header: ["Personal Life Hacks"],
+                    decorators: {
+                        icon: "github",
+                        url: "https://github.com/quarkw/operating-system-simulator"
+                    },
+                    header: [
+                        "Operating System Simulator",
+                        "Fall 2016"
+                    ],
                     bullets: [
-                        "Created script to watch full-classes and auto-register when a space opens up",
-                        "Created a browser extension to integrate ratemyprofessor into class scheduling system",
-                            ["Ability to filter sections to only those taught by professors above a certain rating"],
-                        "Create program for IoT device as a daily habit reminder",
-                        "Created a Twilio app for my apartment callbox so I can access my apartment building if I don't have my key fob and phone"
+                        "Operating System Simulator built in Java", [
+                            "Implements a multi-level priority queue",
+                            "Simulates virtual memory/swapping",
+                            "Implementation of 'cat' for JavaFX based CLI",
+                            "Features adjustable simulation speed"
+                        ],
+                        "~Received a 105% in the class when the average and median were both less than 73%"
                     ]
                 },
             ]
