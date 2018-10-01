@@ -1,26 +1,26 @@
 function viewModel() {
-    this.firstName = "Quark";
-    this.lastName = "Wei";
+    this.firstName = "John";
+    this.lastName = "Naylor";
     this.fullName = this.firstName + " " + this.lastName;
 
     this.phone = "";
-    this.email = "quark.j.wei@gmail.com";
-    this.github = "github.com/quarkw";
-    this.website = "quarkw.github.io/resume"
+    this.email = "jonaylor89@gmail.com";
+    this.github = "github.com/jonaylor89";
+    this.website = "jonaylor89.github.io/resume"
 
     this.sections = [{
             header: ["Employment"],
             subsections: [
                 {
                     header: [
-                        "Seattle, WA",
-                        "Amazon AWS EC2",
-                        "Summer 2017"
+                        "Richmond, VA",
+                        "Research Assistant",
+                        "Fall 2018"
                     ],
                     bullets: [
-                        "Created a data-visualization dashboard to track capacity of servers in EC2, that processes hundreds of GB of new data per day", [
-                            "Created a service to constantly process data dumps in S3 located across multiple AWS regions",
-                            "Used by managers to gain useful business insights into EC2 status, which previously required digging through slow and scattered web pages"
+                        "", [
+                            "",
+                            ""
                         ]
                     ]
                 },
@@ -31,7 +31,7 @@ function viewModel() {
                         "Fall 2016 - Present"
                     ],
                     bullets: [
-                        "Created a full-stack web application for managing authorization roles, utilizing Angular2, MongoDB, and Node", [
+                        "", [
                             "~Worked on a dual-track agile team with two-week-long sprints",
                             "~Created Angular2 components for visualization of data",
                             "Designed MongoDB schema for the app and created a RESTful API to restrict access to the database"
@@ -45,10 +45,10 @@ function viewModel() {
                         "Fall 2014 - Spring 2017"
                     ],
                     bullets: [
-                        "Created Idle Actions chrome extension for computer lab security",
-                        "Worked on an electron app, utilizing Knockout.js, to ease the naming and setup of new computer lab machines", [
-                            "Uses active directory for authentication",
-                            "Uses Chocolatey to install packages, tying in with the Proget API to pull a list of internally hosted applications"
+                        "",
+                        "", [
+                            "",
+                            ""
                         ]
                     ]
                 },
@@ -64,12 +64,12 @@ function viewModel() {
                 // },
                 {
                     header: [
-                        "Richmond, VA",
-                        "UPS Freight",
-                        "Summer 2015"
+                        "Winchester, VA",
+                        "Hollister",
+                        "Fall 2015 - Fall 2016"
                     ],
                     bullets: [
-                        "Created an internal-use full stack web application with the Spring framework, Oracle SQL, Bootstrap, and jQuery to aid in data correction/security–currently used in production."
+                        ""
                     ]
                 }
             ]
@@ -80,11 +80,11 @@ function viewModel() {
                     header: [
                         "Richmond, VA",
                         "Virginia Commonwealth University",
-                        "Fall 2014 - May 2018"
+                        "Fall 2017 - May 2020"
                     ],
                     bullets: [
-                        "Senior studying Computer Science with in-major GPA of 4.0",
-                        "Vice President of Computer Science Student Advisory Board", [
+                        "Senior studying Computer Science with in-major GPA of 3.76",
+                        "Member of Computer Science Student Advisory Board", [
                             "~Help the department choose new faculty members",
                             "~Help out with events, such as local hack day, for prospective and current computer science students"
                         ],
@@ -95,13 +95,12 @@ function viewModel() {
                 },
                 {
                     header: [
-                        "Alexandria, VA",
-                        "Thomas Jefferson HS for Science and Technology",
-                        "2009 - 2013"
+                        "Frederick County, VA",
+                        "Mountain Vista Governor's School for Math, Science, and Technology",
+                        "Fall 2013 - Spring 2017"
                     ],
                     bullets: [
-                        "4.14 GPA",
-                        "Ranked the best public high school in the nation by US news from 2007-2013"
+                        "3.90 GPA",
                     ]
                 }
             ]
@@ -200,31 +199,31 @@ function viewModel() {
             header: ["Leadership"],
             subsections: [{
                     header: [
-                        "RamHacks Organizer",
-                        "Spring 2016 - Present"
+                        "Hyperloop Software Lead",
+                        "Fall 2017 - Fall 2018"
                     ],
                     bullets: [
-                        "Contact sponsors, organize transportation, advertising, communication during the event, swag, and prizes",
-                        "Went around during the event, helping out teams with technical issues"
+                        "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
+                        "Handpicked by SpaceX as one of the top 20 teams internationally"
                     ]
                 },
                 {
                     header: [
-                        "Vice President of RamDev",
-                        "Fall 2016 - Present"
+                        "President of RamDev",
+                        "Summer 2018 - Present"
                     ],
                     bullets: [
                         "Organize weekly tech-talks by companies and students, and hackthon trips",
                         "Have given several tech-talks to students on several subjects", [
-                            "Intro to web development: HTML, CSS, Bootstrap, and Emmet",
-                            "How to consume a RESTful API, (used the dark sky API for weather)"
+                            "Intro to Cython programming",
+                            "System overview for Hyperloop at VCU"
                         ]
                     ]
                 },
                 {
                     header: [
-                        "President of ACM Club",
-                        "Summer 2015 - Present"
+                        "Vice President of ACM Club",
+                        "Summer 2018 - Present"
                     ],
                     bullets: [
                         "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"

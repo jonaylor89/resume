@@ -1,7 +1,7 @@
 # Resume
 I got sick of fixing the formatting on my resume every time I needed to edit a section.
 
-You can see the result [here](http://quarkw.github.io/resume/).
+You can see the result [here](http://jonaylor89.github.io/resume/).
 
 This resume is based on this [wonderful advice from LifeClever](http://www.lifeclever.com/give-your-resume-a-face-lift/).
 
@@ -66,7 +66,7 @@ Decorators can be applied to subsections to link out to webpages, and provide so
 ```js
 decorators: {
   icon: "github",
-  url: "https://github.com/quarkw/resume"
+  url: "https://github.com/jonaylor89/resume"
 }
 ```
 
