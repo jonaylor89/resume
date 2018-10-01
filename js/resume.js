@@ -18,23 +18,27 @@ function viewModel() {
                         "Fall 2018"
                     ],
                     bullets: [
-                        "", [
-                            "",
-                            ""
+                        "Maintain Intellij plugin StackInTheFlow", [
+                            "Brings stack-overflow into the Intellij IDEA",
+                            "Uses machine learning to assist in auto generating queries"
+                        ],
+                        "Mining Software Repository (MSR) Challenge", [
+                            "~Discover trends in a dataset from stack-overflow",
+                            "~Published a research paper as a result of the findings"
                         ]
                     ]
                 },
                 {
                     header: [
                         "Richmond, VA",
-                        "VCU Labs & Classrooms Computing ",
-                        "Fall 2014 - Spring 2017"
+                        "VCU Labs & Classrooms Computing",
+                        "Summer 2018"
                     ],
                     bullets: [
-                        "",
-                        "", [
-                            "",
-                            ""
+                        "Technician for campus computers",
+                        "Developed software for VCU's support technicians", [
+                            "Embedded system and web server for the compus laptop kiosks",
+                            "Desktop application to generate reports for classroom scheduling "
                         ]
                     ]
                 },
@@ -71,7 +75,7 @@ function viewModel() {
                 },
                 {
                     header: [
-                        "Frederick County, VA",
+                        "Middletown, VA",
                         "Mountain Vista Governor's School for Math, Science, and Technology",
                         "Fall 2013 - Spring 2017"
                     ],
@@ -124,16 +128,6 @@ function viewModel() {
                 //     ]
                 // },
                 {
-                    header: ["Personal Life Hacks"],
-                    bullets: [
-                        "Created script to watch full-classes and auto-register when a space opens up",
-                        "Created a browser extension to integrate ratemyprofessor into class scheduling system",
-                            ["Ability to filter sections to only those taught by professors above a certain rating"],
-                        "Create program for IoT device as a daily habit reminder",
-                        "Created a Twilio app for my apartment callbox so I can access my apartment building if I don't have my key fob and phone"
-                    ]
-                },
-                {
                     noPrint: true,
                     decorators: {
                         icon: "github",
@@ -158,13 +152,20 @@ function viewModel() {
                         "Winter 2017"
                     ],
                     bullets: [
-                        "Operating System Simulator built in Java", [
-                            "Implements a multi-level priority queue",
-                            "Simulates virtual memory/swapping",
-                            "Implementation of 'cat' for JavaFX based CLI",
-                            "Features adjustable simulation speed"
+                        "Programming Language Interpreter written in Golang", [
+                            "Implements a AST tree walker",
+                            "Includes first class functions and clojures", 
+                            "Written using Golang's testing library with tests included",
                         ],
-                        "~Received a 105% in the class when the average and median were both less than 73%"
+                    ]
+                },
+                { 
+                    header: ["Helper Scripts"],
+                    bullets: [
+                        "Unix machine setup script to automate package download and dotfile configuration",
+                        "Workflow application to monitor my workflow natively on my machine",
+                        "Facial recognization system using OpenCV to workspace monitoring",
+                        "FAQ scrapper to parse FAQ pages on websites and load then into Amazon Alexa"
                     ]
                 },
             ]
