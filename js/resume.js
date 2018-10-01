@@ -27,20 +27,6 @@ function viewModel() {
                 {
                     header: [
                         "Richmond, VA",
-                        "Capital One",
-                        "Fall 2016 - Present"
-                    ],
-                    bullets: [
-                        "", [
-                            "~Worked on a dual-track agile team with two-week-long sprints",
-                            "~Created Angular2 components for visualization of data",
-                            "Designed MongoDB schema for the app and created a RESTful API to restrict access to the database"
-                        ]
-                    ]
-                },
-                {
-                    header: [
-                        "Richmond, VA",
                         "VCU Labs & Classrooms Computing ",
                         "Fall 2014 - Spring 2017"
                     ],
@@ -52,16 +38,6 @@ function viewModel() {
                         ]
                     ]
                 },
-                // {
-                //     header: [
-                //         "Midlothian, VA",
-                //         "PIE Tech",
-                //         "Summer 2016"
-                //     ],
-                //     bullets: [
-                //         "Created several single page web-apps using the Aurelia framework"
-                //     ]
-                // },
                 {
                     header: [
                         "Winchester, VA",
@@ -69,7 +45,7 @@ function viewModel() {
                         "Fall 2015 - Fall 2016"
                     ],
                     bullets: [
-                        ""
+                        "Managed stockroom supplies and ensured proper handling of incoming and outgoing shipments"
                     ]
                 }
             ]
@@ -119,15 +95,15 @@ function viewModel() {
                 {
                     decorators: {
                         icon: "github",
-                        url: "https://github.com/asakaplan/Bitcamp2017"
+                        url: "https://github.com/joanylor/ZeroPWNd"
                     },
                     header: [
-                        "FinProp",
-                        "Spring 2017"
+                        "ZeroPWNd",
+                        "Fall 2018"
                     ],
                     bullets: [
-                        "Won <a href='https://devpost.com/software/financial-ethics-propagator'>2nd place</a> for Finra challenge at Bitcamp 2017",
-                        "Uses machine learning to discover circles of corruption among financial adviors based on publicly available data"
+                        "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree challenge at RamHacks 2018",
+                        "Uses open source API and public data to check if a URL is a phishing link"
                     ]
                 },
                 // {
@@ -161,26 +137,25 @@ function viewModel() {
                     noPrint: true,
                     decorators: {
                         icon: "github",
-                        url: "https://github.com/johnheng/Myo"
+                        url: "https://github.com/hudginspj/myo-mesh-tracking"
                     },
                     header: [
-                        "Myo Theremin",
-                        "September 2014"
+                        "Myo Secure Tracking",
+                        "Spring 2018"
                     ],
                     bullets: [
-                        "MIDI synthesizer using the Myo motion control band", [
-                            "Won 2nd place overall, and won award for most innovative project"
-                        ]
+                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> for BitCamp2018",
+                        "Uses bluetooth signols and the Myo armband technology to securing monitor visitors"
                     ]
                 },
                 {
                     decorators: {
                         icon: "github",
-                        url: "https://github.com/quarkw/operating-system-simulator"
+                        url: "https://github.com/jonaylor89/MonkeyInterpreter"
                     },
                     header: [
-                        "Operating System Simulator",
-                        "Fall 2016"
+                        "MonkeyLang Interpreter",
+                        "Winter 2017"
                     ],
                     bullets: [
                         "Operating System Simulator built in Java", [
