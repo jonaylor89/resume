@@ -14,8 +14,22 @@ function viewModel() {
                 {
                     header: [
                         "Richmond, VA",
+                        "VCU Labs & Classrooms Computing",
+                        "Summer 2018 - Present"
+                    ],
+                    bullets: [
+                        "Technician for campus computers",
+                        "Developed software for VCU's support technicians", [
+                            "Embedded system and web server for the campus laptop kiosks",
+                            "Desktop application to generate reports for classroom scheduling "
+                        ]
+                    ]
+                },
+                {
+                    header: [
+                        "Richmond, VA",
                         "Research Assistant",
-                        "Fall 2018"
+                        "Fall 2018 - Present"
                     ],
                     bullets: [
                         "Maintain Intellij plugin StackInTheFlow", [
@@ -30,22 +44,8 @@ function viewModel() {
                 },
                 {
                     header: [
-                        "Richmond, VA",
-                        "VCU Labs & Classrooms Computing",
-                        "Summer 2018"
-                    ],
-                    bullets: [
-                        "Technician for campus computers",
-                        "Developed software for VCU's support technicians", [
-                            "Embedded system and web server for the compus laptop kiosks",
-                            "Desktop application to generate reports for classroom scheduling "
-                        ]
-                    ]
-                },
-                {
-                    header: [
                         "Winchester, VA",
-                        "Hollister",
+                        "Hollister Inc.",
                         "Fall 2015 - Fall 2016"
                     ],
                     bullets: [
@@ -165,13 +165,13 @@ function viewModel() {
                         "Unix machine setup script to automate package download and dotfile configuration",
                         "Workflow application to monitor my workflow natively on my machine",
                         "Facial recognization system using OpenCV to workspace monitoring",
-                        "FAQ scrapper to parse FAQ pages on websites and load then into Amazon Alexa"
+                        "FAQ scrapper to parse FAQ pages on websites and loaded then into Amazon Alexa"
                     ]
                 },
             ]
         },
         {
-            noPrint: true,
+            noPrint: false,
             header: ["Leadership"],
             subsections: [{
                     header: [
