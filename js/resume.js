@@ -99,7 +99,7 @@ function viewModel() {
                 {
                     decorators: {
                         icon: "github",
-                        url: "https://github.com/joanylor/ZeroPWNd"
+                        url: "https://github.com/jonaylor89/ZeroPWNd"
                     },
                     header: [
                         "ZeroPWNd",
