@@ -171,6 +171,7 @@ function viewModel() {
             ]
         },
         {
+            noPrint = true,
             header: ["Leadership"],
             subsections: [{
                     header: [
