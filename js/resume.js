@@ -128,7 +128,7 @@ function viewModel() {
                 //     ]
                 // },
                 {
-                    noPrint: true,
+                    noPrint: false,
                     decorators: {
                         icon: "github",
                         url: "https://github.com/hudginspj/myo-mesh-tracking"
