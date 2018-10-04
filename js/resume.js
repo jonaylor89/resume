@@ -160,12 +160,12 @@ function viewModel() {
                     ]
                 },
                 { 
-                    header: ["Helper Scripts"],
+                    header: ["Scripts"],
                     bullets: [
                         "Unix machine setup script to automate package download and dotfile configuration",
                         "Workflow application to monitor my workflow natively on my machine",
                         "Facial recognization system using OpenCV to workspace monitoring",
-                        "FAQ scrapper to parse FAQ pages on websites and loaded then into Amazon Alexa"
+                        "FAQ scrapper that parses FAQ pages on websites and loads then into Amazon Alexa"
                     ]
                 },
             ]
