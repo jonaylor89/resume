@@ -42,16 +42,6 @@ function viewModel() {
                         ]
                     ]
                 },
-                {
-                    header: [
-                        "Winchester, VA",
-                        "Hollister Inc.",
-                        "Fall 2015 - Fall 2016"
-                    ],
-                    bullets: [
-                        "Managed stockroom supplies and ensured proper handling of incoming and outgoing shipments"
-                    ]
-                }
             ]
         },
         {
@@ -85,14 +75,14 @@ function viewModel() {
                 }
             ]
         },
-        // {
-        //     header: ["Skills"],
-        //     subsections: [{
-        //         list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "TypeScript", "Angular2", "Aurelia", "C#", "Knockout.JS", "JavaFX", "Spring",
-        //             "Python", "Django", "Docker", "Unity", "Android", "Oracle SQL"
-        //         ]
-        //     }]
-        // },
+        {
+             header: ["Skills"],
+             subsections: [{
+                 list: ["Java", "Javascript", "ES6", "Node.JS", "CSS", "HTML5", "MongoDB", "Reactjs", "C#",
+                     "Python", "Django", "Docker", "Unity", "Android", "Standard SQL", "C/C++", "Rust"
+                 ]
+             }]
+        },
         {
             header: ["Prominent Projects"],
             subsections: [
@@ -110,23 +100,6 @@ function viewModel() {
                         "Uses open source API and public data to check if a URL is a phishing link"
                     ]
                 },
-                // {
-                //     decorators: {
-                //         icon: "github",
-                //         url: "https://github.com/quarkw/resume"
-                //     },
-                //     header: [
-                //         "Resume",
-                //         ""
-                //     ],
-                //     bullets: [
-                //         "Built using Knockout.JS", [
-                //             "~Printer friendly!",
-                //             // "Fills in info from JSON",
-                //             // "Github pages friendly (simple html/js/css)"
-                //         ]
-                //     ]
-                // },
                 {
                     noPrint: false,
                     decorators: {
@@ -205,19 +178,6 @@ function viewModel() {
                         "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
                     ]
                 },
-                // {
-                //     header: [
-                //         "President of Lion Dance Club",
-                //         "Fall 2015 - Fall 2016"
-                //     ],
-                //     bullets: [
-                //         "Organized the 2016 Inter-Collegiate Lion Dance competition, hosting over 40 lion dancers from Virginia to Massachusetts",
-                //         "Organized bi-weekly practices, performances, and the annual vcu-hosted lion dance expo", [
-                //             "Performed for companies such as Google, Capital One, and Suntrust",
-                //             "Performed for the 2015 Richmond Heart Ball, which raised $1 million to help fund programs to prevent and research cardiovascular disease"
-                //         ]
-                //     ]
-                // }
             ]
         }
     ]
