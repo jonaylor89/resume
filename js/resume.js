@@ -112,7 +112,7 @@ function viewModel() {
                     ],
                     bullets: [
                         "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> for BitCamp2018",
-                        "Uses bluetooth signols and the Myo armband technology to securing monitor visitors"
+                        "Uses bluetooth signals and the Myo armband technology to securing monitor visitors"
                     ]
                 },
                 {
@@ -162,7 +162,8 @@ function viewModel() {
                         "Summer 2018 - Present"
                     ],
                     bullets: [
-                        "Organize weekly tech-talks by companies and students, and hackthon trips",
+                        "Organize weekly tech-talks by companies and students",
+                        "Organize Hackathon trips",
                         "Have given several tech-talks to students on several subjects", [
                             "Intro to Cython programming",
                             "System overview for Hyperloop at VCU"
