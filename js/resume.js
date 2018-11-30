@@ -96,7 +96,7 @@ function viewModel() {
                         "Fall 2018"
                     ],
                     bullets: [
-                        "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree challenge at RamHacks 2018",
+                        "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree's challenge at RamHacks 2018",
                         "Uses open source API and public data to check if a URL is a phishing link"
                     ]
                 },
@@ -111,8 +111,8 @@ function viewModel() {
                         "Spring 2018"
                     ],
                     bullets: [
-                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> for BitCamp2018",
-                        "Uses bluetooth signals and the Myo armband technology to securing monitor visitors"
+                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at BitCamp2018",
+                        "Uses bluetooth communication and the Myo armband technology for securely monitoring visitors"
                     ]
                 },
                 {
@@ -128,7 +128,7 @@ function viewModel() {
                         "Programming Language Interpreter written in Golang", [
                             "Implements a AST tree walker",
                             "Includes first class functions and clojures", 
-                            "Written using Golang's testing library with tests included",
+                            "Unit tests written using Golang's testing library",
                         ],
                     ]
                 },
