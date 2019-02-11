@@ -23,6 +23,7 @@ function viewModel() {
 						"",
 					],
 				},
+				{
                     header: [
                         "Richmond, VA",
                         "VCU Labs & Classrooms Computing",
@@ -52,7 +53,7 @@ function viewModel() {
                             "~Published a research paper as a result of the findings"
                         ]
                     ]
-                },
+                }
             ]
         },
         {
