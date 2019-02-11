@@ -8,10 +8,21 @@ function viewModel() {
     this.github = "github.com/jonaylor89";
     this.website = "jonaylor89.github.io/resume"
 
-    this.sections = [{
+    this.sections = [
+		{
             header: ["Employment"],
             subsections: [
                 {
+					header:[
+						"Richmond, VA",
+						"Afton Chemical",
+						"Winter 2018 - Present"
+					],
+					bullets: [
+						"Software Development Intern",
+						"",
+					],
+				},
                     header: [
                         "Richmond, VA",
                         "VCU Labs & Classrooms Computing",
@@ -29,7 +40,7 @@ function viewModel() {
                     header: [
                         "Richmond, VA",
                         "Research Assistant",
-                        "Fall 2018 - Present"
+                        "Fall 2018 - Spring 2019"
                     ],
                     bullets: [
                         "Maintain Intellij plugin StackInTheFlow", [
@@ -46,7 +57,8 @@ function viewModel() {
         },
         {
             header: ["Education"],
-            subsections: [{
+            subsections: [
+				{
                     header: [
                         "Richmond, VA",
                         "Virginia Commonwealth University",
@@ -58,10 +70,7 @@ function viewModel() {
                             "~Help the department choose new faculty members",
                             "~Help out with events, such as local hack day, for prospective and current computer science students"
                         ],
-                        // "Favorite Courses Taken:"
                     ],
-                    // list: ["Theory of Computation", "Operating Systems", "Interactive Virtual Worlds"],
-                    // list: ["Differential Equations", "Multivariable Calculus", "Linear Algebra", "Theory of Computation", "Operating Systems", "Software Engineering", "Algorithms w/ Advanced Data Structures", "Interactive Virtual Worlds", "Databases", "Programming Languages"]
                 },
                 {
                     header: [
@@ -111,7 +120,7 @@ function viewModel() {
                         "Spring 2018"
                     ],
                     bullets: [
-                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at BitCamp2018",
+                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at HackVT 2018",
                         "Uses bluetooth communication and the Myo armband technology for securely monitoring visitors"
                     ]
                 },
@@ -126,13 +135,28 @@ function viewModel() {
                     ],
                     bullets: [
                         "Programming Language Interpreter written in Golang", [
-                            "Implements a AST tree walker",
+                            "Implements a bytecode compiler and virtual machine",
                             "Includes first class functions and clojures", 
                             "Unit tests written using Golang's testing library",
                         ],
                     ]
                 },
-                { 
+				{
+					deorators: {
+						icon: "github"
+					},
+					header: [
+						"\"Ditto\" playback Cajon",
+						"Spring 2019"
+					],
+					bullets: [
+						"Submission to Moog's annual hackathon at Georgia Tech", [
+							"Latin American drum inspired instrument with the ability to record and playback drum beats",
+							"Used Arduino Mega and Moog Werkstatt to record, store, and playback sounds",
+						]
+					]
+				},
+                {
                     header: ["Scripts"],
                     bullets: [
                         "Unix machine setup script to automate package download and dotfile configuration",
@@ -144,7 +168,7 @@ function viewModel() {
             ]
         },
         {
-            noPrint: true,
+            noPrint: false,
             header: ["Leadership"],
             subsections: [{
                     header: [
@@ -179,6 +203,15 @@ function viewModel() {
                         "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
                     ]
                 },
+				{
+					header: [
+							"Student Advisory Board",
+							"Fall 2018 - Present"
+						],
+					bullets: [
+						"Bridge the gap between the students and the faculty in the CS department"
+					]
+				},
             ]
         }
     ]
