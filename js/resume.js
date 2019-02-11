@@ -50,7 +50,6 @@ function viewModel() {
                         ],
                         "Mining Software Repository (MSR) Challenge", [
                             "~Discover trends in a dataset from stack-overflow",
-                            "~Published a research paper as a result of the findings"
                         ]
                     ]
                 }
