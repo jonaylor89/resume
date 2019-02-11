@@ -146,7 +146,7 @@ function viewModel() {
 						icon: "github"
 					},
 					header: [
-						"\"Ditto\" playback Cajon",
+						"Ditto",
 						"Spring 2019"
 					],
 					bullets: [
