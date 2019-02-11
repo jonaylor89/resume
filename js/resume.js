@@ -20,7 +20,7 @@ function viewModel() {
 					],
 					bullets: [
 						"Software Development Intern",
-						"",
+						"Wrote software with the development team to assist the company",
 					],
 				},
 				{
