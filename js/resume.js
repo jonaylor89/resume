@@ -67,7 +67,7 @@ function viewModel() {
                    ]
                },
                {
-                   deorators: {
+                   decorators: {
                        icon: "github"
                    },
                    header: [
@@ -80,6 +80,18 @@ function viewModel() {
                            "Used Arduino Mega and Moog Werkstatt to record, store, and playback sounds",
                        ]
                    ]
+               },
+               {
+                  header: [
+                    "Collegiate Cyber Defense Competition",
+                    "Spring 2019"
+                  ],
+                  bullets: [
+                    "Placed 2nd at the Mid-Atlantic's Collegiate Cyber Defense Competition" , [
+                      "Cyber defense competition used as a simulation for actual cyber defense in a business setting",
+                      "Concentrated on the security of my team's linux machines"
+                    ]
+                  ]
                },
                {
                    header: ["Scripts"],
@@ -95,7 +107,8 @@ function viewModel() {
         {
             noPrint: false,
             header: ["Leadership"],
-            subsections: [{
+            subsections: [
+              {
                     header: [
                         "Hyperloop Software Lead",
                         "Fall 2017 - Fall 2018"
@@ -130,13 +143,14 @@ function viewModel() {
                 },
                 {
                     header: [
-                            "Student Advisory Board",
+                            "Vice President of Student Advisory Board",
                             "Fall 2018 - Present"
                         ],
                     bullets: [
                         "Bridge the gap between the students and the faculty in the CS department"
                     ]
                 },
+              },
             ]
         },
         {
@@ -150,7 +164,7 @@ function viewModel() {
 					],
 					bullets: [
 						"Software Development Intern",
-						"Wrote software with the development team to assist the company",
+						"Worked on C# and Angular projects for data scientists and chemical engineers",
 					],
 				},
 				{
@@ -161,7 +175,7 @@ function viewModel() {
                     ],
                     bullets: [
                         "Technician for campus computers",
-                        "Developed software for VCU's support technicians", [
+                        "Developed python projects and bash scripts for VCU's support technicians", [
                             "Embedded system and web server for the campus laptop kiosks",
                             "Desktop application to generate reports for classroom scheduling "
                         ]
