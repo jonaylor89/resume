@@ -147,80 +147,80 @@ function viewModel() {
                         "Bridge the gap between the students and the faculty in the CS department"
                     ]
                 },
+            ],
+        },
+        {
+            header: ["Employment"],
+            subsections: [{
+                    header: [
+                        "Richmond, VA",
+                        "Afton Chemical",
+                        "Winter 2018 - Present"
+                    ],
+                    bullets: [
+                        "Software Development Intern",
+                        "Worked on C# and Angular projects for data scientists and chemical engineers",
+                    ],
+                },
                 {
-                    header: ["Employment"],
-                    subsections: [{
-                            header: [
-                                "Richmond, VA",
-                                "Afton Chemical",
-                                "Winter 2018 - Present"
-                            ],
-                            bullets: [
-                                "Software Development Intern",
-                                "Worked on C# and Angular projects for data scientists and chemical engineers",
-                            ],
-                        },
-                        {
-                            header: [
-                                "Richmond, VA",
-                                "VCU Labs & Classrooms Computing",
-                                "Summer 2018 - Present"
-                            ],
-                            bullets: [
-                                "Technician for campus computers",
-                                "Developed python projects and bash scripts for VCU's support technicians", [
-                                    "Embedded system and web server for the campus laptop kiosks",
-                                    "Desktop application to generate reports for classroom scheduling "
-                                ]
-                            ]
-                        },
-                        {
-                            header: [
-                                "Richmond, VA",
-                                "Research Assistant",
-                                "Fall 2018 - Spring 2019"
-                            ],
-                            bullets: [
-                                "Maintain Intellij plugin StackInTheFlow", [
-                                    "Brings stack-overflow into the Intellij IDEA",
-                                    "Uses machine learning to assist in auto generating queries"
-                                ],
-                                "Mining Software Repository (MSR) Challenge", [
-                                    "~Discover trends in a dataset from stack-overflow",
-                                ]
-                            ]
-                        }
+                    header: [
+                        "Richmond, VA",
+                        "VCU Labs & Classrooms Computing",
+                        "Summer 2018 - Present"
+                    ],
+                    bullets: [
+                        "Technician for campus computers",
+                        "Developed python projects and bash scripts for VCU's support technicians", [
+                            "Embedded system and web server for the campus laptop kiosks",
+                            "Desktop application to generate reports for classroom scheduling "
+                        ]
                     ]
                 },
                 {
-                    header: ["Education"],
-                    subsections: [{
-                            header: [
-                                "Richmond, VA",
-                                "Virginia Commonwealth University",
-                                "Fall 2017 - May 2020"
-                            ],
-                            bullets: [
-                                "Senior studying Computer Science with in-major GPA of 3.76",
-                                "Member of Computer Science Student Advisory Board", [
-                                    "~Help the department choose new faculty members",
-                                    "~Help out with events, such as local hack day, for prospective and current computer science students"
-                                ],
-                            ],
-                        },
-                        {
-                            header: [
-                                "Middletown, VA",
-                                "Mountain Vista Governor's School for Math, Science, and Technology",
-                                "Fall 2013 - Spring 2017"
-                            ],
-                            bullets: [
-                                "3.90 GPA",
-                            ]
-                        }
+                    header: [
+                        "Richmond, VA",
+                        "Research Assistant",
+                        "Fall 2018 - Spring 2019"
+                    ],
+                    bullets: [
+                        "Maintain Intellij plugin StackInTheFlow", [
+                            "Brings stack-overflow into the Intellij IDEA",
+                            "Uses machine learning to assist in auto generating queries"
+                        ],
+                        "Mining Software Repository (MSR) Challenge", [
+                            "~Discover trends in a dataset from stack-overflow",
+                        ]
                     ]
-                },
+                }
             ]
-        }
+        },
+        {
+            header: ["Education"],
+            subsections: [{
+                    header: [
+                        "Richmond, VA",
+                        "Virginia Commonwealth University",
+                        "Fall 2017 - May 2020"
+                    ],
+                    bullets: [
+                        "Senior studying Computer Science with in-major GPA of 3.76",
+                        "Member of Computer Science Student Advisory Board", [
+                            "~Help the department choose new faculty members",
+                            "~Help out with events, such as local hack day, for prospective and current computer science students"
+                        ],
+                    ],
+                },
+                {
+                    header: [
+                        "Middletown, VA",
+                        "Mountain Vista Governor's School for Math, Science, and Technology",
+                        "Fall 2013 - Spring 2017"
+                    ],
+                    bullets: [
+                        "3.90 GPA",
+                    ]
+                }
+            ]
+        },
     ]
 };
