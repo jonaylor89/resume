@@ -10,6 +10,136 @@ function viewModel() {
 
     this.sections = [
 		{
+            header: ["Skills"],
+            subsections: [{
+                list: ["Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
+                    "Python", "Docker", "Android", "C/C++", "Rust", "Embedded Systems"
+                ]
+            }]
+       },
+       {
+           header: ["Prominent Projects"],
+           subsections: [
+               {
+                   decorators: {
+                       icon: "github",
+                       url: "https://github.com/jonaylor89/ZeroPWNd"
+                   },
+                   header: [
+                       "ZeroPWNd",
+                       "Fall 2018"
+                   ],
+                   bullets: [
+                       "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree's challenge at RamHacks 2018",
+                       "Uses open source API and public data to check if a URL is a phishing link"
+                   ]
+               },
+               {
+                   noPrint: false,
+                   decorators: {
+                       icon: "github",
+                       url: "https://github.com/hudginspj/myo-mesh-tracking"
+                   },
+                   header: [
+                       "Myo Secure Tracking",
+                       "Spring 2018"
+                   ],
+                   bullets: [
+                       "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at HackVT 2018",
+                       "Uses bluetooth communication and the Myo armband technology for securely monitoring visitors"
+                   ]
+               },
+               {
+                   decorators: {
+                       icon: "github",
+                       url: "https://github.com/jonaylor89/MonkeyInterpreter"
+                   },
+                   header: [
+                       "MonkeyLang Interpreter",
+                       "Winter 2017"
+                   ],
+                   bullets: [
+                       "Programming Language Interpreter written in Golang", [
+                           "Implements a bytecode compiler and virtual machine",
+                           "Includes first class functions and clojures", 
+                           "Unit tests written using Golang's testing library",
+                       ],
+                   ]
+               },
+               {
+                   deorators: {
+                       icon: "github"
+                   },
+                   header: [
+                       "Ditto",
+                       "Spring 2019"
+                   ],
+                   bullets: [
+                       "Submission to Moog's annual hackathon at Georgia Tech", [
+                           "Latin American drum inspired instrument with the ability to record and playback drum beats",
+                           "Used Arduino Mega and Moog Werkstatt to record, store, and playback sounds",
+                       ]
+                   ]
+               },
+               {
+                   header: ["Scripts"],
+                   bullets: [
+                       "Unix machine setup script to automate package download and dotfile configuration",
+                       "Workflow application to monitor my workflow natively on my machine",
+                       "Facial recognization system using OpenCV to workspace monitoring",
+                       "FAQ scrapper that parses FAQ pages on websites and loads then into Amazon Alexa"
+                   ]
+               },
+           ]
+        },
+        {
+            noPrint: false,
+            header: ["Leadership"],
+            subsections: [{
+                    header: [
+                        "Hyperloop Software Lead",
+                        "Fall 2017 - Fall 2018"
+                    ],
+                    bullets: [
+                        "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
+                        "Handpicked by SpaceX as one of the top 20 teams internationally"
+                    ]
+                },
+                {
+                    header: [
+                        "President of RamDev",
+                        "Summer 2018 - Present"
+                    ],
+                    bullets: [
+                        "Organize weekly tech-talks by companies and students",
+                        "Organize Hackathon trips",
+                        "Have given several tech-talks to students on several subjects", [
+                            "Intro to Cython programming",
+                            "System overview for Hyperloop at VCU"
+                        ]
+                    ]
+                },
+                {
+                    header: [
+                        "Vice President of ACM Club",
+                        "Summer 2018 - Present"
+                    ],
+                    bullets: [
+                        "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+                    ]
+                },
+                {
+                    header: [
+                            "Student Advisory Board",
+                            "Fall 2018 - Present"
+                        ],
+                    bullets: [
+                        "Bridge the gap between the students and the faculty in the CS department"
+                    ]
+                },
+            ]
+        },
+        {
             header: ["Employment"],
             subsections: [
                 {
@@ -84,135 +214,5 @@ function viewModel() {
                 }
             ]
         },
-        {
-             header: ["Skills"],
-             subsections: [{
-                 list: ["Java", "Javascript", "NodeJS", "CSS", "HTML5", "MongoDB", "SQL", "Bash", "ReactJS", ".NET",
-                     "Python", "Django", "Docker", "Unity", "Android", "Standard SQL", "C/C++", "Rust", "Embedded Systems"
-                 ]
-             }]
-        },
-        {
-            header: ["Prominent Projects"],
-            subsections: [
-                {
-                    decorators: {
-                        icon: "github",
-                        url: "https://github.com/jonaylor89/ZeroPWNd"
-                    },
-                    header: [
-                        "ZeroPWNd",
-                        "Fall 2018"
-                    ],
-                    bullets: [
-                        "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree's challenge at RamHacks 2018",
-                        "Uses open source API and public data to check if a URL is a phishing link"
-                    ]
-                },
-                {
-                    noPrint: false,
-                    decorators: {
-                        icon: "github",
-                        url: "https://github.com/hudginspj/myo-mesh-tracking"
-                    },
-                    header: [
-                        "Myo Secure Tracking",
-                        "Spring 2018"
-                    ],
-                    bullets: [
-                        "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at HackVT 2018",
-                        "Uses bluetooth communication and the Myo armband technology for securely monitoring visitors"
-                    ]
-                },
-                {
-                    decorators: {
-                        icon: "github",
-                        url: "https://github.com/jonaylor89/MonkeyInterpreter"
-                    },
-                    header: [
-                        "MonkeyLang Interpreter",
-                        "Winter 2017"
-                    ],
-                    bullets: [
-                        "Programming Language Interpreter written in Golang", [
-                            "Implements a bytecode compiler and virtual machine",
-                            "Includes first class functions and clojures", 
-                            "Unit tests written using Golang's testing library",
-                        ],
-                    ]
-                },
-				{
-					deorators: {
-						icon: "github"
-					},
-					header: [
-						"Ditto",
-						"Spring 2019"
-					],
-					bullets: [
-						"Submission to Moog's annual hackathon at Georgia Tech", [
-							"Latin American drum inspired instrument with the ability to record and playback drum beats",
-							"Used Arduino Mega and Moog Werkstatt to record, store, and playback sounds",
-						]
-					]
-				},
-                {
-                    header: ["Scripts"],
-                    bullets: [
-                        "Unix machine setup script to automate package download and dotfile configuration",
-                        "Workflow application to monitor my workflow natively on my machine",
-                        "Facial recognization system using OpenCV to workspace monitoring",
-                        "FAQ scrapper that parses FAQ pages on websites and loads then into Amazon Alexa"
-                    ]
-                },
-            ]
-        },
-        {
-            noPrint: false,
-            header: ["Leadership"],
-            subsections: [{
-                    header: [
-                        "Hyperloop Software Lead",
-                        "Fall 2017 - Fall 2018"
-                    ],
-                    bullets: [
-                        "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
-                        "Handpicked by SpaceX as one of the top 20 teams internationally"
-                    ]
-                },
-                {
-                    header: [
-                        "President of RamDev",
-                        "Summer 2018 - Present"
-                    ],
-                    bullets: [
-                        "Organize weekly tech-talks by companies and students",
-                        "Organize Hackathon trips",
-                        "Have given several tech-talks to students on several subjects", [
-                            "Intro to Cython programming",
-                            "System overview for Hyperloop at VCU"
-                        ]
-                    ]
-                },
-                {
-                    header: [
-                        "Vice President of ACM Club",
-                        "Summer 2018 - Present"
-                    ],
-                    bullets: [
-                        "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
-                    ]
-                },
-				{
-					header: [
-							"Student Advisory Board",
-							"Fall 2018 - Present"
-						],
-					bullets: [
-						"Bridge the gap between the students and the faculty in the CS department"
-					]
-				},
-            ]
-        }
     ]
 };
