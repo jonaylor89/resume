@@ -12,7 +12,7 @@ function viewModel() {
             header: ["Skills"],
             subsections: [{
                 list: ["Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
-                    "Python", "Docker", "Android", "C/C++", "Rust", "Embedded Systems"
+                    "Python", "Go", "Docker", "Android", "C/C++", "Rust", "Embedded Systems"
                 ]
             }]
         },
