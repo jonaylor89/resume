@@ -122,11 +122,8 @@ function viewModel() {
                     ],
                     bullets: [
                         "Organize weekly tech-talks by companies and students",
+                        "Invite corporate developers to speak and bring internships for students",
                         "Organize Hackathon trips",
-                        "Have given several tech-talks to students on several subjects", [
-                            "Intro to Cython programming",
-                            "System overview for Hyperloop at VCU"
-                        ]
                     ]
                 },
                 {
