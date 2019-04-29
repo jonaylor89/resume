@@ -8,8 +8,7 @@ function viewModel() {
     this.github = "github.com/jonaylor89";
     this.website = "jonaylor.xyz"
 
-    this.sections = [{
-            header: ["Skills"],
+    this.sections = [{ header: ["Skills"],
             subsections: [{
                 list: ["Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
                     "Python", "Go", "Docker", "Android", "C/C++", "Rust", "Embedded Systems"
@@ -152,7 +151,7 @@ function viewModel() {
                     header: [
                         "Richmond, VA",
                         "Afton Chemical",
-                        "Winter 2018 - Present"
+                        "Winter 2018 - Summer 2019"
                     ],
                     bullets: [
                         "Software Development Intern",
