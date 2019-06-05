@@ -147,7 +147,19 @@ function viewModel() {
         },
         {
             header: ["Employment"],
-            subsections: [{
+          subsections: [{
+                    "header": [
+                      "Richmond, VA",
+                      "Capital One",
+                      "Summer 2019 - Present"
+                    ],
+                    "bullets": [
+                      "Software Development Intern",
+                      "Developed in an agile development team",
+                      "Contributed to python flask with vuejs applications"
+                    ],
+            }, 
+            {
                     header: [
                         "Richmond, VA",
                         "Afton Chemical",
