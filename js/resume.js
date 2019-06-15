@@ -10,8 +10,10 @@ function viewModel() {
 
     this.sections = [{ header: ["Skills"],
             subsections: [{
-                list: ["Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
-                    "Python", "Go", "Docker", "Android", "C/C++", "Rust", "Embedded Systems"
+              list: [
+                  "Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
+                "Python", "Go", "Docker", "Kubernetes", "Android", "C/C++", "Rust", "Embedded Systems",
+                "GKE"
                 ]
             }]
         },
