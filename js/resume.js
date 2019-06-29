@@ -158,7 +158,7 @@ function viewModel() {
                     "bullets": [
                       "Software Development Intern",
                       "Developed in an agile development team",
-                      "Contributed to python flask with vuejs applications"
+                      "Full stack development in angular, express, python flask, and java spring boot"
                     ],
             }, 
             {
