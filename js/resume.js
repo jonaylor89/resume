@@ -11,9 +11,9 @@ function viewModel() {
     this.sections = [{ header: ["Skills"],
             subsections: [{
               list: [
-                  "Java", "Javascript", "NodeJS", "CSS", "HTML5", "SQL", "Bash", ".NET",
-                "Python", "Go", "Docker", "Kubernetes", "Android", "C/C++", "Rust", "Embedded Systems",
-                "GKE"
+                "NodeJS", "Javascript", "CSS", "HTML5", "Angular", "Vue","SQL", "Bash", "Java", ".NET",
+                "Python", "Android", "C/C++", "Rust", "Embedded Systems"
+                "Go", "Docker", "Kubernetes", "GKE",
                 ]
             }]
         },
@@ -158,7 +158,12 @@ function viewModel() {
                     "bullets": [
                       "Software Development Intern",
                       "Developed in an agile development team",
-                      "Full stack development in angular, express, python flask, and java spring boot"
+                      "Full stack development", [
+                        "Angular",
+                        "Nodejs",
+                        "Spring Boot",
+                        "Flask"
+                      ]
                     ],
             }, 
             {
