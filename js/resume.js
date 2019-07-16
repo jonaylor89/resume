@@ -157,7 +157,7 @@ function viewModel() {
             "Software Development Intern",
             "Developed in an agile development team",
             "Full stack development",
-            ["Angular", "Nodejs", "Spring Boot", "Flask"]
+            ["Angular, Nodejs, Spring Boot, Flask"]
           ]
         },
         {
