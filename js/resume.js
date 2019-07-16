@@ -12,8 +12,8 @@ function viewModel() {
             subsections: [{
               list: [
                 "NodeJS", "Javascript", "CSS", "HTML5", "Angular", "Vue","SQL", "Bash", "Java", ".NET",
-                "Python", "Android", "C/C++", "Rust", "Embedded Systems"
-                "Go", "Docker", "Kubernetes", "GKE",
+                "Python", "Android", "C/C++", "Rust", "Embedded Systems",
+                "Go", "Docker", "Kubernetes", "GKE"
                 ]
             }]
         },
