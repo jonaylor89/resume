@@ -20,6 +20,7 @@ function viewModel() {
             "HTML5",
             "Angular",
             "Vue",
+            "flutter",
             "SQL",
             "Bash",
             "Java",
