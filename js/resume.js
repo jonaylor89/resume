@@ -44,6 +44,17 @@ function viewModel() {
         {
           decorators: {
             icon: "github",
+            url: "https://github.com/BatmaniNRobin/HotWheeels_Ramhacks2019"
+          },
+          header: ["Hot Wheels", "Fall 2019"],
+          bullets: [
+            "Won <a href='https://devpost.com/software/hot-wheels'>second place</a> at RamHacks 2019",
+            "Users Augmented Reality to let CarMax customers check if a car in the lot is available or not"
+          ]
+        },
+        {
+          decorators: {
+            icon: "github",
             url: "https://github.com/jonaylor89/ZeroPWNd"
           },
           header: ["ZeroPWNd", "Fall 2018"],
@@ -222,14 +233,6 @@ function viewModel() {
               "~Help out with events, such as local hack day, for prospective and current computer science students"
             ]
           ]
-        },
-        {
-          header: [
-            "Middletown, VA",
-            "Mountain Vista Governor's School for Math, Science, and Technology",
-            "Fall 2013 - Spring 2017"
-          ],
-          bullets: ["3.90 GPA"]
         }
       ]
     }
