@@ -49,7 +49,7 @@ function viewModel() {
           header: ["Hot Wheels", "Fall 2019"],
           bullets: [
             "Won <a href='https://devpost.com/software/hot-wheels'>second place</a> at RamHacks 2019",
-            "Users Augmented Reality to let CarMax customers check if a car in the lot is available or not"
+            "Uses Augmented Reality to let CarMax customers check if a car in the lot is available or not"
           ]
         },
         {
