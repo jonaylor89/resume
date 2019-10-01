@@ -113,15 +113,6 @@ function viewModel() {
             ]
           ]
         },
-        {
-          header: ["Scripts"],
-          bullets: [
-            "Unix bash scripts and ansible playbooks for personal machine provisioning",
-            "Workflow application to monitor my workflow natively on my machine",
-            "Facial recognization system using OpenCV to workspace monitoring",
-            "FAQ scrapper that parses FAQ pages on websites and loads then into Amazon Alexa"
-          ]
-        }
       ]
     },
     {
