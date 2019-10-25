@@ -47,7 +47,7 @@ function viewModel() {
           },
           header: ["Wine in a Million", "Fall 2019"],
           bullets: [
-            "Win <a href='https://devpost.com/software/wine-in-a-million'>first place</a> for GDIT's Natural Language Processing Challenge",
+            "Won <a href='https://devpost.com/software/wine-in-a-million'>first place</a> for GDIT's Natural Language Processing Challenge",
             "Uses BERT as a Service and a wine review dataset to recommend wine to users similar to their current tastes"
           ]
         },
