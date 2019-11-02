@@ -69,7 +69,7 @@ function viewModel() {
           },
           header: ["ZeroPWNd", "Fall 2018"],
           bullets: [
-            "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree's challenge at RamHacks 2018",
+            "Won <a href='https://devpost.com/software/zeropwnd'>first place</a> for Willow Tree's challenge at RamHacks 2018",
             "Uses open source API and public data to check if a URL is a phishing link"
           ]
         },
