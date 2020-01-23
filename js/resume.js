@@ -27,8 +27,8 @@ function viewModel() {
             ".NET",
             "Python",
             "Android",
-            "iOS"
-            "swift"
+            "iOS",
+            "swift",
             "C/C++",
             "Rust",
             "Go",
