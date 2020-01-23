@@ -28,7 +28,7 @@ function viewModel() {
             "Python",
             "Android",
             "iOS",
-            "swift",
+            "Swift",
             "C/C++",
             "Rust",
             "Go",
@@ -159,7 +159,7 @@ function viewModel() {
           ]
         },
         {
-          header: ["Vice President of ACM Club", "Summer 2018 - Present"],
+          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
           bullets: [
             "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
           ]
