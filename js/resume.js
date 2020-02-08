@@ -34,7 +34,8 @@ function viewModel() {
             "Go",
             "Docker",
             "Kubernetes",
-            "GKE"
+            "GKE",
+            "AWS"
           ]
         }
       ]
