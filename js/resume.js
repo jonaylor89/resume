@@ -173,6 +173,15 @@ function viewModel() {
           bullets: [
             "Bridge the gap between the students and the faculty in the CS department"
           ]
+        }, 
+        {
+          header: [
+            "Lead RamHack Organizer",
+            "Spring 2020 - Present"
+          ],
+          bullets: [
+            "Annual VCU Hackathon with students all around Virginia" 
+          ]
         }
       ]
     },
