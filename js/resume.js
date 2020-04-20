@@ -16,8 +16,7 @@ function viewModel() {
           list: [
             "NodeJS",
             "Javascript",
-            "CSS",
-            "HTML5",
+            "HTML/CSS",
             "Angular",
             "Vue",
             "flutter",
@@ -34,7 +33,7 @@ function viewModel() {
             "Go",
             "Docker",
             "Kubernetes",
-            "GKE",
+            "GCP",
             "AWS"
           ]
         }
@@ -141,7 +140,6 @@ function viewModel() {
       ]
     },
     {
-      noPrint: false,
       header: ["Leadership"],
       subsections: [
         {
@@ -225,6 +223,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           header: [
             "Richmond, VA",
             "Research Assistant",
