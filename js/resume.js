@@ -174,7 +174,7 @@ function viewModel() {
         }, 
         {
           header: [
-            "Lead RamHack Organizer",
+            "Lead RamHacks Organizer",
             "Spring 2020 - Present"
           ],
           bullets: [
@@ -274,7 +274,7 @@ function viewModel() {
             "Fall 2017 - Spring 2020"
           ],
           bullets: [
-            "Bachelors in Computer Science degree from Virginia Commonwealth University",
+            "Bachelor in Computer Science degree from Virginia Commonwealth University",
           ]
         }
       ]
