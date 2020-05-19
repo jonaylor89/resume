@@ -1,7 +1,7 @@
 function viewModel() {
   this.firstName = "John";
   this.lastName = "Naylor";
-  this.fullName = this.firstName + " O. " + this.lastName;
+  this.fullName = this.firstName + " " + this.lastName;
 
   this.phone = "";
   this.email = "john@jonaylor.xyz";
@@ -16,23 +16,25 @@ function viewModel() {
           list: [
             "NodeJS",
             "Javascript",
-            "CSS",
-            "HTML5",
+            "HTML/CSS",
             "Angular",
             "Vue",
+            "flutter",
             "SQL",
             "Bash",
             "Java",
             ".NET",
             "Python",
             "Android",
+            "iOS",
+            "Swift",
             "C/C++",
             "Rust",
-            "Embedded Systems",
             "Go",
             "Docker",
             "Kubernetes",
-            "GKE"
+            "GCP",
+            "AWS"
           ]
         }
       ]
@@ -43,16 +45,38 @@ function viewModel() {
         {
           decorators: {
             icon: "github",
+            url: "https://github.com/jonaylor89/WineInAMillion",
+          },
+          header: ["Wine in a Million", "Fall 2019"],
+          bullets: [
+            "Won <a href='https://devpost.com/software/wine-in-a-million'>first place</a> for GDIT's Natural Language Processing Challenge",
+            "Uses BERT as a Service and a wine review dataset to recommend wine to users similar to their current tastes"
+          ]
+        },
+        {
+          decorators: {
+            icon: "github",
+            url: "https://github.com/BatmaniNRobin/HotWheeels_Ramhacks2019"
+          },
+          header: ["Hot Wheels", "Fall 2019"],
+          bullets: [
+            "Won <a href='https://devpost.com/software/hot-wheels'>second place</a> at RamHacks 2019",
+            "Uses Augmented Reality to let CarMax customers check if a car in the lot is available or not"
+          ]
+        },
+        {
+          decorators: {
+            icon: "github",
             url: "https://github.com/jonaylor89/ZeroPWNd"
           },
           header: ["ZeroPWNd", "Fall 2018"],
           bullets: [
-            "Won <a href='https://devpost.com/software/zeropwnd'>1st place</a> for Willow Tree's challenge at RamHacks 2018",
+            "Won <a href='https://devpost.com/software/zeropwnd'>first place</a> for Willow Tree's challenge at RamHacks 2018",
             "Uses open source API and public data to check if a URL is a phishing link"
           ]
         },
         {
-          noPrint: false,
+          noPrint: true,
           decorators: {
             icon: "github",
             url: "https://github.com/hudginspj/myo-mesh-tracking"
@@ -92,6 +116,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           header: ["Collegiate Cyber Defense Competition", "Spring 2019"],
           bullets: [
             "Placed 2nd at the Mid-Atlantic's Collegiate Cyber Defense Competition",
@@ -102,18 +127,19 @@ function viewModel() {
           ]
         },
         {
-          header: ["Scripts"],
+          noPrint: true,
+          header: ["Collegiate Penetration Testing Competition", "Fall 2019"],
           bullets: [
-            "Unix machine setup script to automate package download and dotfile configuration",
-            "Workflow application to monitor my workflow natively on my machine",
-            "Facial recognization system using OpenCV to workspace monitoring",
-            "FAQ scrapper that parses FAQ pages on websites and loads then into Amazon Alexa"
+            "Placed 3rd at the the Northeasten Regional Collegiate Penetration Testing Competition",
+            [
+              "Offensive security competition used as a simulation for an actual corporate penetration test",
+              "Concentrated on writing scripts on the fly for quick immediate tasks"
+            ]
           ]
-        }
+        },
       ]
     },
     {
-      noPrint: false,
       header: ["Leadership"],
       subsections: [
         {
@@ -132,7 +158,7 @@ function viewModel() {
           ]
         },
         {
-          header: ["Vice President of ACM Club", "Summer 2018 - Present"],
+          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
           bullets: [
             "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
           ]
@@ -144,6 +170,15 @@ function viewModel() {
           ],
           bullets: [
             "Bridge the gap between the students and the faculty in the CS department"
+          ]
+        }, 
+        {
+          header: [
+            "Lead RamHack Organizer",
+            "Spring 2020 - Present"
+          ],
+          bullets: [
+            "Annual VCU Hackathon with students all around Virginia" 
           ]
         }
       ]
@@ -157,7 +192,7 @@ function viewModel() {
             "Software Development Intern",
             "Developed in an agile development team",
             "Full stack development",
-            ["Angular", "Nodejs", "Spring Boot", "Flask"]
+            ["Angular, Nodejs, Spring Boot, Flask"]
           ]
         },
         {
@@ -172,6 +207,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           header: [
             "Richmond, VA",
             "VCU Labs & Classrooms Computing",
@@ -187,6 +223,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           header: [
             "Richmond, VA",
             "Research Assistant",
@@ -221,14 +258,6 @@ function viewModel() {
               "~Help out with events, such as local hack day, for prospective and current computer science students"
             ]
           ]
-        },
-        {
-          header: [
-            "Middletown, VA",
-            "Mountain Vista Governor's School for Math, Science, and Technology",
-            "Fall 2013 - Spring 2017"
-          ],
-          bullets: ["3.90 GPA"]
         }
       ]
     }
