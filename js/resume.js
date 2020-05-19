@@ -165,8 +165,8 @@ function viewModel() {
         },
         {
           header: [
-            "Vice President of Student Advisory Board",
-            "Fall 2018 - Present"
+            "President of Student Advisory Board",
+            "Summer 2020 - Present"
           ],
           bullets: [
             "Bridge the gap between the students and the faculty in the CS department"
@@ -178,7 +178,7 @@ function viewModel() {
             "Spring 2020 - Present"
           ],
           bullets: [
-            "Annual VCU Hackathon with students all around Virginia" 
+            "Annual VCU Hackathon with students from all around Virginia" 
           ]
         }
       ]
@@ -187,12 +187,19 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["Richmond, VA", "Capital One", "Summer 2019 - Present"],
+          header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Software Development Intern",
             "Developed in an agile development team",
+          ]
+        },
+        {
+          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
+          bullets: [
+            "Software Studio Intern",
+            "Developed in an agile development team",
             "Full stack development",
-            ["Angular, Nodejs, Spring Boot, Flask"]
+            ["Vue, Angular, Nodejs, Spring Boot, Flask"]
           ]
         },
         {
@@ -247,16 +254,27 @@ function viewModel() {
         {
           header: [
             "Richmond, VA",
-            "Virginia Commonwealth University",
-            "Fall 2017 - May 2020"
+            "Master of Science",
+            "Fall 2020 - Spring 2021"
           ],
           bullets: [
-            "Senior studying Computer Science with in-major GPA of 3.76",
+            "Master of Computer Science degree from Virginia Commonwealth University",
+            "Computer Science with in-major GPA of 3.75",
             "Member of Computer Science Student Advisory Board",
             [
               "~Help the department choose new faculty members",
               "~Help out with events, such as local hack day, for prospective and current computer science students"
             ]
+          ]
+        },
+        {
+          header: [
+            "Richmond, VA",
+            "Bachelor of Science",
+            "Fall 2017 - Spring 2020"
+          ],
+          bullets: [
+            "Bachelors in Computer Science degree from Virginia Commonwealth University",
           ]
         }
       ]
