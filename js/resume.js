@@ -28,6 +28,7 @@ function viewModel() {
             "Android",
             "iOS",
             "Swift",
+            "SwiftUI"
             "C/C++",
             "Rust",
             "Go",
@@ -97,7 +98,7 @@ function viewModel() {
             "Programming Language Interpreter written in Golang",
             [
               "Implements a bytecode compiler and virtual machine",
-              "Includes first class functions and clojures",
+              "Includes first class functions and closures",
               "Unit tests written using Golang's testing library"
             ]
           ]
