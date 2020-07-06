@@ -28,7 +28,7 @@ function viewModel() {
             "Android",
             "iOS",
             "Swift",
-            "SwiftUI"
+            "SwiftUI",
             "C/C++",
             "Rust",
             "Go",
