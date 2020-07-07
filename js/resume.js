@@ -38,6 +38,8 @@ function viewModel() {
             "GCP",
             "AWS",
             "Terraform",
+            "Airtable",
+            "Zapier",
           ]
         }
       ]
