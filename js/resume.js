@@ -22,20 +22,24 @@ function viewModel() {
             "flutter",
             "SQL",
             "Bash",
+            "Ansible",
             "Java",
             ".NET",
             "Python",
             "Android",
             "iOS",
             "Swift",
-            "SwiftUI"
+            "SwiftUI",
             "C/C++",
             "Rust",
             "Go",
             "Docker",
             "Kubernetes",
             "GCP",
-            "AWS"
+            "AWS",
+            "Terraform",
+            "Airtable",
+            "Zapier",
           ]
         }
       ]
@@ -172,7 +176,7 @@ function viewModel() {
           bullets: [
             "Bridge the gap between the students and the faculty in the CS department"
           ]
-        }, 
+        },
         {
           header: [
             "Lead RamHacks Organizer",
