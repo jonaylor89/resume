@@ -4,7 +4,7 @@ function viewModel() {
   this.fullName = this.firstName + " " + this.lastName;
 
   this.phone = "";
-  this.email = "john@jonaylor.xyz";
+  this.email = "jonaylor89@gmail.com";
   this.github = "github.com/jonaylor89";
   this.website = "jonaylor.xyz";
 
