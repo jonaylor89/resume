@@ -197,6 +197,8 @@ function viewModel() {
           bullets: [
             "Software Development Intern",
             "Developed in an agile development team",
+            "Full stack development", 
+            ["Angular, Nodejs, Spring Boot, Postgres"],
           ]
         },
         {
@@ -216,7 +218,7 @@ function viewModel() {
           ],
           bullets: [
             "Software Development Intern",
-            "Worked on C# and Angular projects for data scientists and chemical engineers"
+            "Worked on C# and Angular web apps for data scientists and chemical engineers"
           ]
         },
         {
@@ -255,6 +257,20 @@ function viewModel() {
       ]
     },
     {
+      header: ["Certifications"],
+      subsections: [
+        {
+          decorators: {
+            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
+          },
+          header: [
+            "AWS Solutions Architect - Associate",
+            "July 2020 - July 2023"
+          ],
+        }
+      ]
+    },
+    {
       header: ["Education"],
       subsections: [
         {
@@ -277,20 +293,6 @@ function viewModel() {
           bullets: [
             "Bachelor in Computer Science degree from Virginia Commonwealth University",
           ]
-        }
-      ]
-    },
-    {
-      header: ["Certifications"],
-      subsections: [
-        {
-          decorators: {
-            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
-          },
-          header: [
-            "AWS Solutions Architect - Associate",
-            "July 2020 - July 2023"
-          ],
         }
       ]
     }
