@@ -283,6 +283,20 @@ function viewModel() {
           ]
         }
       ]
+    },
+    {
+      header: ["Certifications"],
+      subsections: [
+        {
+          decorators: {
+            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
+          },
+          header: [
+            "AWS Solutions Architect - Associate",
+            "July 2020 - July 2023"
+          ],
+        }
+      ]
     }
   ];
 }
