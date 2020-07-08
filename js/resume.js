@@ -70,6 +70,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           decorators: {
             icon: "github",
             url: "https://github.com/jonaylor89/ZeroPWNd"
@@ -108,6 +109,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           decorators: {
             icon: "github"
           },
@@ -222,7 +224,6 @@ function viewModel() {
           ]
         },
         {
-          noPrint: true,
           header: [
             "Richmond, VA",
             "VCU Labs & Classrooms Computing",
