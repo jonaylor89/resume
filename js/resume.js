@@ -174,7 +174,8 @@ function viewModel() {
             "Summer 2020 - Present"
           ],
           bullets: [
-            "Bridge the gap between the students and the faculty in the CS department"
+            "~Help the department choose new faculty members",
+            "~Help out with events, such as local hack day, for prospective and current computer science students"
           ]
         },
         {
@@ -265,11 +266,6 @@ function viewModel() {
           bullets: [
             "Master of Computer Science degree from Virginia Commonwealth University",
             "Computer Science with in-major GPA of 3.75",
-            "Member of Computer Science Student Advisory Board",
-            [
-              "~Help the department choose new faculty members",
-              "~Help out with events, such as local hack day, for prospective and current computer science students"
-            ]
           ]
         },
         {
