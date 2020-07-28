@@ -268,6 +268,15 @@ function viewModel() {
             "AWS Solutions Architect - Associate",
             "July 2020 - July 2023"
           ],
+        },
+        {
+          decorators: {
+            url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
+          },
+          header: [
+            "Google Associate Cloud Engineer",
+            "July 2020 - July 2022"
+          ],
         }
       ]
     },
