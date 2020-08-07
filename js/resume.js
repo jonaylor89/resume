@@ -24,6 +24,9 @@ function viewModel() {
             "Bash",
             "Ansible",
             "Java",
+            "Kafka",
+            "Spark",
+            "Hadoop",
             ".NET",
             "Python",
             "Android",
@@ -198,17 +201,17 @@ function viewModel() {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Software Development Intern",
-            "Developed in an agile development team",
-            "Full stack development", 
-            ["Angular, Nodejs, Spring Boot, Postgres"],
+            "Real Time Payments infrastructure for Capital One",
+            "Team lead", 
+            ["MQTT", "Kafka", "Angular, Nodejs, Spring Boot, Postgres"],
           ]
         },
         {
           header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
           bullets: [
-            "Software Studio Intern",
-            "Developed in an agile development team",
-            "Full stack development",
+            "Software Studio Developer",
+            "Team lead for a team of contractors",
+            "GSuite management",
             ["Vue, Angular, Nodejs, Spring Boot, Flask"]
           ]
         },
