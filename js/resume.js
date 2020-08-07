@@ -160,7 +160,7 @@ function viewModel() {
           ]
         },
         {
-          header: ["President of RamDev", "Summer 2018 - Present"],
+          header: ["President of RamDev", "Summer 2018 - Summer 2020"],
           bullets: [
             "Organize weekly tech-talks by companies and students",
             "Invite corporate developers to speak and bring internships for students",
@@ -186,7 +186,7 @@ function viewModel() {
         {
           header: [
             "Lead RamHacks Organizer",
-            "Spring 2020 - Present"
+            "Spring 2020 - Fall 2020"
           ],
           bullets: [
             "Annual VCU Hackathon with students from all around Virginia" 
@@ -202,7 +202,7 @@ function viewModel() {
           bullets: [
             "Software Development Intern",
             "Real Time Payments team for Capital One",
-            "Develop on and Manage AWS infrastructure for real time payments",
+            "Develop on and manage AWS infrastructure for real time payments",
             "Team lead", 
             ["MQTT, Kafka, Angular, Nodejs, Spring Boot, Postgres, Jenkins, AWS"],
           ]
