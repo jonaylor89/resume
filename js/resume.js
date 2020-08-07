@@ -203,7 +203,7 @@ function viewModel() {
             "Software Development Intern",
             "Real Time Payments infrastructure for Capital One",
             "Team lead", 
-            ["MQTT", "Kafka", "Angular, Nodejs, Spring Boot, Postgres"],
+            ["MQTT, Kafka, Angular, Nodejs, Spring Boot, Postgres"],
           ]
         },
         {
