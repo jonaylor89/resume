@@ -200,7 +200,7 @@ function viewModel() {
         {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
-            "Software Development Intern",
+            "Technical Intern Program",
             "Real Time Payments team for Capital One",
             "Develop on and manage AWS infrastructure for real time payments",
             "Team lead", 
