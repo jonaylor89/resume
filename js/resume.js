@@ -201,9 +201,10 @@ function viewModel() {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Software Development Intern",
-            "Real Time Payments infrastructure for Capital One",
+            "Real Time Payments team for Capital One",
+            "Develop on and Manage AWS infrastructure for real time payments",
             "Team lead", 
-            ["MQTT, Kafka, Angular, Nodejs, Spring Boot, Postgres"],
+            ["MQTT, Kafka, Angular, Nodejs, Spring Boot, Postgres, Jenkins, AWS"],
           ]
         },
         {
@@ -213,7 +214,7 @@ function viewModel() {
             "Team lead for a team of contractors",
             "Strict test driven development",
             "GSuite management",
-            ["Vue, Angular, Nodejs, Spring Boot, Flask"]
+            ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"]
           ]
         },
         {
@@ -224,7 +225,8 @@ function viewModel() {
           ],
           bullets: [
             "Software Development Intern",
-            "Worked on C# and Angular web apps for data scientists and chemical engineers"
+            "Worked on C# and Angular web apps for data scientists and chemical engineers",
+            ["C#, Angular, Office 365"]
           ]
         },
         {
