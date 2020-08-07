@@ -211,6 +211,7 @@ function viewModel() {
           bullets: [
             "Software Studio Developer",
             "Team lead for a team of contractors",
+            "Strict test driven development",
             "GSuite management",
             ["Vue, Angular, Nodejs, Spring Boot, Flask"]
           ]
