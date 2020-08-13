@@ -200,7 +200,7 @@ function viewModel() {
         {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
-            "Technical Intern Program",
+            "Associate Software Developer",
             "Real Time Payments team for Capital One",
             "Develop on and manage AWS infrastructure for real time payments",
             "Team lead", 
@@ -224,7 +224,7 @@ function viewModel() {
             "Winter 2018 - Summer 2019"
           ],
           bullets: [
-            "Software Development Intern",
+            "Software Developer",
             "Worked on C# and Angular web apps for data scientists and chemical engineers",
             ["C#, Angular, Office 365"]
           ]
