@@ -176,13 +176,6 @@ function viewModel() {
       header: ["Leadership"],
       subsections: [
         {
-          header: ["Hyperloop Software Lead", "Fall 2017 - Fall 2018"],
-          bullets: [
-            "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
-            "Handpicked by SpaceX as one of the top 20 teams internationally"
-          ]
-        },
-        {
           header: ["President of RamDev", "Summer 2018 - Summer 2020"],
           bullets: [
             "Organize weekly tech-talks by companies and students",
@@ -191,9 +184,12 @@ function viewModel() {
           ]
         },
         {
-          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
+          header: [
+            "Lead RamHacks Organizer",
+            "Spring 2020 - Fall 2020"
+          ],
           bullets: [
-            "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+            "Annual VCU Hackathon with students from all around Virginia" 
           ]
         },
         {
@@ -207,12 +203,16 @@ function viewModel() {
           ]
         },
         {
-          header: [
-            "Lead RamHacks Organizer",
-            "Spring 2020 - Fall 2020"
-          ],
+          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
           bullets: [
-            "Annual VCU Hackathon with students from all around Virginia" 
+            "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+          ]
+        },
+        {
+          header: ["Hyperloop Software Lead", "Fall 2017 - Fall 2018"],
+          bullets: [
+            "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
+            "Handpicked by SpaceX as one of the top 20 teams internationally"
           ]
         }
       ]
