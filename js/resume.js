@@ -189,7 +189,8 @@ function viewModel() {
             "Spring 2020 - Fall 2020"
           ],
           bullets: [
-            "Annual VCU Hackathon with students from all around Virginia" 
+            "Annual VCU Hackathon and largest hackathon in Virginia",
+            "Oversaw VCU's first all virtual hackathon during COVID-19 lockdown"
           ]
         },
         {
@@ -206,6 +207,12 @@ function viewModel() {
           header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
           bullets: [
             "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+          ]
+        },
+        {
+          header: ["Google Student Developer Lead", "Fall 2020 - Spring 2021"],
+          bullets: [
+            "Manage a student developer club including monthly workshops on Google Cloud"
           ]
         },
         {
