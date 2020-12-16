@@ -228,7 +228,7 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
+          header: ["Richmond, VA", "Capital One", "Summer 2020 - Fall 2020"],
           bullets: [
             "Associate Software Developer",
             "Real Time Payments team for Capital One",
