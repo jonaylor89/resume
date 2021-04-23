@@ -228,6 +228,24 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
+          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Present"],
+          bullets: [
+            "Founder and CEO of In The Loop (https://intheloopstudio.com)",
+            "Developed music platform for artists and producers to collaborate",
+            ["Website, Android, iOS"]
+          ]
+        },
+        {
+          header: ["Richmond, VA", "Ananas Brand Co", "Spring 2021 - Present"],
+          bullets: [
+            "Owner and Manager of Ananas Brand Co (https://ananasbrandco.com)",
+            "Clothing and Apparel Brand",
+            "Manage the Shopify store and social media sales channels",
+            "Marketing", 
+            ["Facebook Business, Instagram, Google Ads"]
+          ]
+        },
+        {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Fall 2020"],
           bullets: [
             "Associate Software Developer",
