@@ -230,15 +230,17 @@ function viewModel() {
         {
           header: ["Richmond, VA", "In The Loop", "Spring 2021 - Present"],
           bullets: [
-            "Founder and CEO of In The Loop (https://intheloopstudio.com)",
+            "Founder and CEO of In The Loop",
+            "https://intheloopstudio.com",
             "Developed music platform for artists and producers to collaborate",
-            ["Website, Android, iOS"]
+            ["Vuejs, Firebase, Google Cloud, Flutter, Android, iOS"]
           ]
         },
         {
           header: ["Richmond, VA", "Ananas Brand Co", "Spring 2021 - Present"],
           bullets: [
-            "Owner and Manager of Ananas Brand Co (https://ananasbrandco.com)",
+            "Owner and Manager of Ananas Brand Co",
+            "https://ananasbrandco.com",
             "Clothing and Apparel Brand",
             "Manage the Shopify store and social media sales channels",
             "Marketing", 
@@ -281,7 +283,7 @@ function viewModel() {
           header: [
             "Richmond, VA",
             "VCU Labs & Classrooms Computing",
-            "Summer 2018 - Present"
+            "Summer 2018 - Summer 2019"
           ],
           bullets: [
             "Technician for campus computers",
