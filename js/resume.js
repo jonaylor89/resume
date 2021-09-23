@@ -172,58 +172,7 @@ function viewModel() {
         },
       ]
     },
-    {
-      header: ["Leadership"],
-      subsections: [
-        {
-          header: ["President of RamDev", "Summer 2018 - Summer 2020"],
-          bullets: [
-            "Organize weekly tech-talks by companies and students",
-            "Invite corporate developers to speak and bring internships for students",
-            "Organize Hackathon trips"
-          ]
-        },
-        {
-          header: [
-            "Lead RamHacks Organizer",
-            "Spring 2020 - Fall 2020"
-          ],
-          bullets: [
-            "Annual VCU Hackathon and largest hackathon in Virginia",
-            "Oversaw VCU's first all virtual hackathon during COVID-19 lockdown"
-          ]
-        },
-        {
-          header: [
-            "President of Student Advisory Board",
-            "Summer 2020 - Present"
-          ],
-          bullets: [
-            "~Help the department choose new faculty members",
-            "~Help out with events, such as local hack day, for prospective and current computer science students"
-          ]
-        },
-        {
-          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
-          bullets: [
-            "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
-          ]
-        },
-        {
-          header: ["Google Student Developer Lead", "Fall 2020 - Spring 2021"],
-          bullets: [
-            "Manage a student developer club including monthly workshops on Google Cloud"
-          ]
-        },
-        {
-          header: ["Hyperloop Software Lead", "Fall 2017 - Fall 2018"],
-          bullets: [
-            "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
-            "Handpicked by SpaceX as one of the top 20 teams internationally"
-          ]
-        }
-      ]
-    },
+
     {
       header: ["Employment"],
       subsections: [
@@ -298,6 +247,58 @@ function viewModel() {
             ],
             "Mining Software Repository (MSR) Challenge",
             ["~Discover trends in a dataset from stack-overflow"]
+          ]
+        }
+      ]
+    },
+    {
+      header: ["Leadership"],
+      subsections: [
+        {
+          header: ["President of RamDev", "Summer 2018 - Summer 2020"],
+          bullets: [
+            "Organize weekly tech-talks by companies and students",
+            "Invite corporate developers to speak and bring internships for students",
+            "Organize Hackathon trips"
+          ]
+        },
+        {
+          header: [
+            "Lead RamHacks Organizer",
+            "Spring 2020 - Fall 2020"
+          ],
+          bullets: [
+            "Annual VCU Hackathon and largest hackathon in Virginia",
+            "Oversaw VCU's first all virtual hackathon during COVID-19 lockdown"
+          ]
+        },
+        {
+          header: [
+            "President of Student Advisory Board",
+            "Summer 2020 - Present"
+          ],
+          bullets: [
+            "~Help the department choose new faculty members",
+            "~Help out with events, such as local hack day, for prospective and current computer science students"
+          ]
+        },
+        {
+          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
+          bullets: [
+            "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+          ]
+        },
+        {
+          header: ["Google Student Developer Lead", "Fall 2020 - Spring 2021"],
+          bullets: [
+            "Manage a student developer club including monthly workshops on Google Cloud"
+          ]
+        },
+        {
+          header: ["Hyperloop Software Lead", "Fall 2017 - Fall 2018"],
+          bullets: [
+            "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
+            "Handpicked by SpaceX as one of the top 20 teams internationally"
           ]
         }
       ]
