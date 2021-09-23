@@ -58,7 +58,6 @@ function viewModel() {
           ],
           bullets: [
             "Master of Computer Science degree from Virginia Commonwealth University",
-            "Computer Science with in-major GPA of 3.75",
           ]
         },
         {
