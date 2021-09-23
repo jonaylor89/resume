@@ -172,7 +172,32 @@ function viewModel() {
         },
       ]
     },
-
+    {
+      header: ["Education"],
+      subsections: [
+        {
+          header: [
+            "Richmond, VA",
+            "Master of Science",
+            "Fall 2020 - Spring 2021"
+          ],
+          bullets: [
+            "Master of Computer Science degree from Virginia Commonwealth University",
+            "Computer Science with in-major GPA of 3.75",
+          ]
+        },
+        {
+          header: [
+            "Richmond, VA",
+            "Bachelor of Science",
+            "Fall 2017 - Spring 2020"
+          ],
+          bullets: [
+            "Bachelor in Computer Science degree from Virginia Commonwealth University",
+          ]
+        }
+      ]
+    },
     {
       header: ["Employment"],
       subsections: [
@@ -252,32 +277,6 @@ function viewModel() {
       ]
     },
     {
-      header: ["Education"],
-      subsections: [
-        {
-          header: [
-            "Richmond, VA",
-            "Master of Science",
-            "Fall 2020 - Spring 2021"
-          ],
-          bullets: [
-            "Master of Computer Science degree from Virginia Commonwealth University",
-            "Computer Science with in-major GPA of 3.75",
-          ]
-        },
-        {
-          header: [
-            "Richmond, VA",
-            "Bachelor of Science",
-            "Fall 2017 - Spring 2020"
-          ],
-          bullets: [
-            "Bachelor in Computer Science degree from Virginia Commonwealth University",
-          ]
-        }
-      ]
-    },
-    {
       header: ["Leadership"],
       subsections: [
         {
@@ -329,6 +328,5 @@ function viewModel() {
         }
       ]
     },
-
   ];
 }
