@@ -179,7 +179,7 @@ function viewModel() {
         {
           header: ["Richmond, VA", "In The Loop", "Spring 2021 - Present"],
           bullets: [
-            "Founder and CEO of In The Loop",
+            "Founder of In The Loop",
             "https://intheloopstudio.com",
             "Developed music platform for artists and producers to collaborate",
             ["Vuejs, Firebase, Google Cloud, Flutter, Android, iOS"]
