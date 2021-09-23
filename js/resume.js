@@ -237,24 +237,13 @@ function viewModel() {
           ]
         },
         {
-          header: ["Richmond, VA", "Ananas Brand Co", "Spring 2021 - Present"],
-          bullets: [
-            "Owner and Manager of Ananas Brand Co",
-            "https://ananasbrandco.com",
-            "Clothing and Apparel Brand",
-            "Manage the Shopify store and social media sales channels",
-            "Marketing", 
-            ["Facebook Business, Instagram, Google Ads"]
-          ]
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Fall 2020"],
+          header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Associate Software Developer",
-            "Real Time Payments team for Capital One",
+            "Capital One",
             "Develop on and manage AWS infrastructure for real time payments",
-            "Team lead", 
-            ["MQTT, Kafka, Angular, Nodejs, Spring Boot, Postgres, Jenkins, AWS"],
+            "Modernization work for Architecture, APIs, and design processes",
+            ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
           ]
         },
         {
