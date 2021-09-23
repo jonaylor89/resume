@@ -188,7 +188,7 @@ function viewModel() {
         {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
-            "Associate Software Developer",
+            "Associate Software Engineer",
             "Capital One",
             "Develop on and manage AWS infrastructure for real time payments",
             "Modernization work for Architecture, APIs, and design processes",
@@ -212,7 +212,7 @@ function viewModel() {
             "Winter 2018 - Summer 2019"
           ],
           bullets: [
-            "Software Developer",
+            "Software Development",
             "Worked on C# and Angular web apps for data scientists and chemical engineers",
             ["C#, Angular, Office 365"]
           ]
