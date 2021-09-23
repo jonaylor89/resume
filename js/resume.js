@@ -48,6 +48,32 @@ function viewModel() {
       ]
     },
     {
+      header: ["Education"],
+      subsections: [
+        {
+          header: [
+            "Richmond, VA",
+            "Master of Science",
+            "Fall 2020 - Spring 2021"
+          ],
+          bullets: [
+            "Master of Computer Science degree from Virginia Commonwealth University",
+            "Computer Science with in-major GPA of 3.75",
+          ]
+        },
+        {
+          header: [
+            "Richmond, VA",
+            "Bachelor of Science",
+            "Fall 2017 - Spring 2020"
+          ],
+          bullets: [
+            "Bachelor in Computer Science degree from Virginia Commonwealth University",
+          ]
+        }
+      ]
+    },
+    {
       header: ["Certifications"],
       subsections: [
         {
@@ -135,7 +161,6 @@ function viewModel() {
           ]
         },
         {
-          noPrint: true,
           decorators: {
             icon: "github"
           },
@@ -149,7 +174,6 @@ function viewModel() {
           ]
         },
         {
-          noPrint: true,
           header: ["Collegiate Cyber Defense Competition", "Spring 2019"],
           bullets: [
             "Placed 2nd at the Mid-Atlantic's Collegiate Cyber Defense Competition",
@@ -160,7 +184,6 @@ function viewModel() {
           ]
         },
         {
-          noPrint: true,
           header: ["Collegiate Penetration Testing Competition", "Fall 2019"],
           bullets: [
             "Placed 3rd at the the Northeasten Regional Collegiate Penetration Testing Competition",
@@ -170,32 +193,6 @@ function viewModel() {
             ]
           ]
         },
-      ]
-    },
-    {
-      header: ["Education"],
-      subsections: [
-        {
-          header: [
-            "Richmond, VA",
-            "Master of Science",
-            "Fall 2020 - Spring 2021"
-          ],
-          bullets: [
-            "Master of Computer Science degree from Virginia Commonwealth University",
-            "Computer Science with in-major GPA of 3.75",
-          ]
-        },
-        {
-          header: [
-            "Richmond, VA",
-            "Bachelor of Science",
-            "Fall 2017 - Spring 2020"
-          ],
-          bullets: [
-            "Bachelor in Computer Science degree from Virginia Commonwealth University",
-          ]
-        }
       ]
     },
     {
@@ -214,7 +211,6 @@ function viewModel() {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Associate Software Engineer",
-            "Capital One",
             "Develop on and manage AWS infrastructure for real time payments",
             "Modernization work for Architecture, APIs, and design processes",
             ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
@@ -243,6 +239,7 @@ function viewModel() {
           ]
         },
         {
+          noPrint: true,
           header: [
             "Richmond, VA",
             "VCU Labs & Classrooms Computing",
