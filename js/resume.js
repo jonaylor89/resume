@@ -43,6 +43,8 @@ function viewModel() {
             "Terraform",
             "Airtable",
             "Zapier",
+            "Blockchain",
+            "AI / ML / DS",
           ]
         }
       ]
@@ -57,7 +59,7 @@ function viewModel() {
             "Fall 2020 - Spring 2021"
           ],
           bullets: [
-            "Master of Computer Science degree from Virginia Commonwealth University",
+            "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
           ]
         },
         {
@@ -106,7 +108,7 @@ function viewModel() {
           header: ["Wine in a Million", "Fall 2019"],
           bullets: [
             "Won <a href='https://devpost.com/software/wine-in-a-million'>first place</a> for GDIT's Natural Language Processing Challenge",
-            "Uses BERT as a Service and a wine review dataset to recommend wine to users similar to their current tastes"
+            "Uses BERT as a Service (AI/ML/NLP Model), Jupyter notebooks, and a wine review dataset to recommend wine to users similar to their current tastes"
           ]
         },
         {
@@ -117,7 +119,7 @@ function viewModel() {
           header: ["Hot Wheels", "Fall 2019"],
           bullets: [
             "Won <a href='https://devpost.com/software/hot-wheels'>second place</a> at RamHacks 2019",
-            "Uses Augmented Reality to let CarMax customers check if a car in the lot is available or not"
+            "Uses Augmented Reality, AI, and microservices (Flask Framework) to let CarMax customers check if a car in the lot is available or not"
           ]
         },
         {
@@ -129,7 +131,7 @@ function viewModel() {
           header: ["ZeroPWNd", "Fall 2018"],
           bullets: [
             "Won <a href='https://devpost.com/software/zeropwnd'>first place</a> for Willow Tree's challenge at RamHacks 2018",
-            "Uses open source API and public data to check if a URL is a phishing link"
+            "Uses open source API and public data to check if a URL is a phishing link (Cyber Security)"
           ]
         },
         {
@@ -203,7 +205,7 @@ function viewModel() {
             "Founder of In The Loop",
             "https://intheloopstudio.com",
             "Developed music platform for artists and producers to collaborate",
-            ["Vuejs, Firebase, Google Cloud, Flutter, Android, iOS"]
+            ["Vuejs, Firebase, Google Cloud, Flutter, Android, iOS, mobile"]
           ]
         },
         {
