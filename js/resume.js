@@ -79,6 +79,15 @@ function viewModel() {
       subsections: [
         {
           decorators: {
+            url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
+          },
+          header: [
+            "AWS Certified Machine Learning - Specialty",
+            "November 2021 - November 2024"
+          ],
+        },
+        {
+          decorators: {
             url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
           },
           header: [
