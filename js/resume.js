@@ -44,6 +44,9 @@ function viewModel() {
             "Airtable",
             "Zapier",
             "Blockchain",
+            "Ethereum",
+            "Solidity",
+            "Solana",
             "AI / ML / DS",
           ]
         }
@@ -209,15 +212,6 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Present"],
-          bullets: [
-            "Founder of In The Loop",
-            "https://intheloopstudio.com",
-            "Developed music platform for artists and producers to collaborate",
-            ["Vuejs, Firebase, Google Cloud, Flutter, Android, iOS, mobile"]
-          ]
-        },
-        {
           header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
           bullets: [
             "Associate Software Engineer",
@@ -234,6 +228,15 @@ function viewModel() {
             "Strict test driven development",
             "GSuite management",
             ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"]
+          ]
+        },
+        {
+          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Spring 2022"],
+          bullets: [
+            "Founder of In The Loop",
+            "https://intheloopstudio.com",
+            "Developed music platform for artists and producers to collaborate",
+            ["Vuejs, Firebase, GCP, Flutter, Android, iOS, mobile"]
           ]
         },
         {
