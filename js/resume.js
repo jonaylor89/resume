@@ -192,7 +192,6 @@ function viewModel() {
             "Placed 2nd at the Mid-Atlantic's Collegiate Cyber Defense Competition",
             [
               "Cyber defense competition used as a simulation for actual cyber defense in a business setting",
-              "Concentrated on the security of my team's linux machines"
             ]
           ]
         },
@@ -202,7 +201,6 @@ function viewModel() {
             "Placed 3rd at the the Northeasten Regional Collegiate Penetration Testing Competition",
             [
               "Offensive security competition used as a simulation for an actual corporate penetration test",
-              "Concentrated on writing scripts on the fly for quick immediate tasks"
             ]
           ]
         },
