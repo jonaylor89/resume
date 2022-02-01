@@ -40,7 +40,6 @@ function viewModel() {
             "GCP",
             "AWS",
             "Terraform",
-            "Blockchain",
             "Ethereum",
             "Solidity",
             "Solana",
