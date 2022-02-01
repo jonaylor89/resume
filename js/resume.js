@@ -15,11 +15,10 @@ function viewModel() {
         {
           list: [
             "NodeJS",
-            "Javascript",
             "HTML/CSS",
             "Angular",
             "Vue",
-            "flutter",
+            "Flutter",
             "SQL",
             "Bash",
             "Ansible",
@@ -41,13 +40,11 @@ function viewModel() {
             "GCP",
             "AWS",
             "Terraform",
-            "Airtable",
-            "Zapier",
             "Blockchain",
             "Ethereum",
             "Solidity",
             "Solana",
-            "AI / ML / DS",
+            "AI/ML/DS",
           ]
         }
       ]
