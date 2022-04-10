@@ -206,7 +206,16 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Present"],
+          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
+          bullets: [
+            "Software Engineer",
+            "Develop on and manage GCP + AWS infrastructure",
+            "Build atop a decentralized and distributed network",
+            ["Nodejs, Python, Rust, AWS, GCP, solana, ehtereum"],
+          ]
+        },
+        {
+          header: ["Richmond, VA", "Capital One", "Summer 2020 - Spring 2022"],
           bullets: [
             "Associate Software Engineer",
             "Develop on and manage AWS infrastructure for real time payments",
