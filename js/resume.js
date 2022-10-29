@@ -49,59 +49,89 @@ function viewModel() {
       ]
     },
     {
-      header: ["Education"],
+      header: ["Employment"],
       subsections: [
         {
-          header: [
-            "Richmond, VA",
-            "Master of Science",
-            "Fall 2020 - Spring 2021"
-          ],
+          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
           bullets: [
-            "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
+            "Software Engineer",
+            "Develop on and manage GCP + AWS infrastructure",
+            "Build atop a decentralized and distributed network",
+            ["Nodejs, Python, Rust, AWS, GCP, solana, ethereum"],
+          ]
+        },
+        {
+          header: ["Richmond, VA", "Capital One", "Summer 2020 - Spring 2022"],
+          bullets: [
+            "Associate Software Engineer",
+            "Develop on and manage AWS infrastructure for real time payments",
+            "Modernization work for Architecture, APIs, and design processes",
+            ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
+          ]
+        },
+        {
+          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
+          bullets: [
+            "Software Studio Developer",
+            "Team lead for a team of contractors",
+            "Strict test driven development",
+            "GSuite management",
+            ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"]
+          ]
+        },
+        {
+          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Spring 2022"],
+          bullets: [
+            "Founder of In The Loop",
+            "https://intheloopstudio.com",
+            "Developed music platform for artists and producers to collaborate",
+            ["Vuejs, Firebase, GCP, Flutter, Android, iOS, mobile"]
           ]
         },
         {
           header: [
             "Richmond, VA",
-            "Bachelor of Science",
-            "Fall 2017 - Spring 2020"
+            "Afton Chemical",
+            "Winter 2018 - Summer 2019"
           ],
           bullets: [
-            "Bachelor in Computer Science degree from Virginia Commonwealth University",
+            "Software Development",
+            "Worked on C# and Angular web apps for data scientists and chemical engineers",
+            ["C#, Angular, Office 365"]
           ]
-        }
-      ]
-    },
-    {
-      header: ["Certifications"],
-      subsections: [
-        {
-          decorators: {
-            url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
-          },
-          header: [
-            "AWS Certified Machine Learning - Specialty",
-            "November 2021 - November 2024"
-          ],
         },
         {
-          decorators: {
-            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
-          },
+          noPrint: true,
           header: [
-            "AWS Solutions Architect - Associate",
-            "July 2020 - July 2023"
+            "Richmond, VA",
+            "VCU Labs & Classrooms Computing",
+            "Summer 2018 - Summer 2019"
           ],
+          bullets: [
+            "Technician for campus computers",
+            "Developed python projects and bash scripts for VCU's support technicians",
+            [
+              "Embedded system and web server for the campus laptop kiosks",
+              "Desktop application to generate reports for classroom scheduling "
+            ]
+          ]
         },
         {
-          decorators: {
-            url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
-          },
+          noPrint: true,
           header: [
-            "Google Associate Cloud Engineer",
-            "July 2020 - July 2022"
+            "Richmond, VA",
+            "Research Assistant",
+            "Fall 2018 - Spring 2019"
           ],
+          bullets: [
+            "Maintain Intellij plugin StackInTheFlow",
+            [
+              "Brings stack-overflow into the Intellij IDEA",
+              "Uses machine learning to assist in auto generating queries"
+            ],
+            "Mining Software Repository (MSR) Challenge",
+            ["~Discover trends in a dataset from stack-overflow"]
+          ]
         }
       ]
     },
@@ -203,95 +233,17 @@ function viewModel() {
       ]
     },
     {
-      header: ["Employment"],
-      subsections: [
-        {
-          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
-          bullets: [
-            "Software Engineer",
-            "Develop on and manage GCP + AWS infrastructure",
-            "Build atop a decentralized and distributed network",
-            ["Nodejs, Python, Rust, AWS, GCP, solana, ehtereum"],
-          ]
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Spring 2022"],
-          bullets: [
-            "Associate Software Engineer",
-            "Develop on and manage AWS infrastructure for real time payments",
-            "Modernization work for Architecture, APIs, and design processes",
-            ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
-          ]
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
-          bullets: [
-            "Software Studio Developer",
-            "Team lead for a team of contractors",
-            "Strict test driven development",
-            "GSuite management",
-            ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"]
-          ]
-        },
-        {
-          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Spring 2022"],
-          bullets: [
-            "Founder of In The Loop",
-            "https://intheloopstudio.com",
-            "Developed music platform for artists and producers to collaborate",
-            ["Vuejs, Firebase, GCP, Flutter, Android, iOS, mobile"]
-          ]
-        },
-        {
-          header: [
-            "Richmond, VA",
-            "Afton Chemical",
-            "Winter 2018 - Summer 2019"
-          ],
-          bullets: [
-            "Software Development",
-            "Worked on C# and Angular web apps for data scientists and chemical engineers",
-            ["C#, Angular, Office 365"]
-          ]
-        },
-        {
-          noPrint: true,
-          header: [
-            "Richmond, VA",
-            "VCU Labs & Classrooms Computing",
-            "Summer 2018 - Summer 2019"
-          ],
-          bullets: [
-            "Technician for campus computers",
-            "Developed python projects and bash scripts for VCU's support technicians",
-            [
-              "Embedded system and web server for the campus laptop kiosks",
-              "Desktop application to generate reports for classroom scheduling "
-            ]
-          ]
-        },
-        {
-          noPrint: true,
-          header: [
-            "Richmond, VA",
-            "Research Assistant",
-            "Fall 2018 - Spring 2019"
-          ],
-          bullets: [
-            "Maintain Intellij plugin StackInTheFlow",
-            [
-              "Brings stack-overflow into the Intellij IDEA",
-              "Uses machine learning to assist in auto generating queries"
-            ],
-            "Mining Software Repository (MSR) Challenge",
-            ["~Discover trends in a dataset from stack-overflow"]
-          ]
-        }
-      ]
-    },
-    {
       header: ["Leadership"],
       subsections: [
+        {
+          header: ["Lead Organizer of RVA Remix Competition"],
+          bullets: [
+            "https://rvaremix.org",
+            "Lead a week long in-person music remixing competition",
+            "Featured ~$1000 in prizes for winners",
+            "Included workshops and seminars for participants"
+          ]
+        },
         {
           header: ["President of RamDev", "Summer 2018 - Summer 2020"],
           bullets: [
@@ -337,6 +289,63 @@ function viewModel() {
           bullets: [
             "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
             "Handpicked by SpaceX as one of the top 20 teams internationally"
+          ]
+        }
+      ]
+    },
+    {
+      header: ["Certifications"],
+      subsections: [
+        {
+          decorators: {
+            url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
+          },
+          header: [
+            "AWS Certified Machine Learning - Specialty",
+            "November 2021 - November 2024"
+          ],
+        },
+        {
+          decorators: {
+            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
+          },
+          header: [
+            "AWS Solutions Architect - Associate",
+            "July 2020 - July 2023"
+          ],
+        },
+        {
+          decorators: {
+            url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
+          },
+          header: [
+            "Google Associate Cloud Engineer",
+            "July 2020 - July 2022"
+          ],
+        }
+      ]
+    },
+    {
+      header: ["Education"],
+      subsections: [
+        {
+          header: [
+            "Richmond, VA",
+            "Master of Science",
+            "Fall 2020 - Spring 2021"
+          ],
+          bullets: [
+            "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
+          ]
+        },
+        {
+          header: [
+            "Richmond, VA",
+            "Bachelor of Science",
+            "Fall 2017 - Spring 2020"
+          ],
+          bullets: [
+            "Bachelor in Computer Science degree from Virginia Commonwealth University",
           ]
         }
       ]
