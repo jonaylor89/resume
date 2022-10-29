@@ -236,7 +236,7 @@ function viewModel() {
       header: ["Leadership"],
       subsections: [
         {
-          header: ["Lead Organizer of RVA Remix Competition"],
+          header: ["Lead Organizer of RVA Remix Competition", "Summer 2022"],
           bullets: [
             "https://rvaremix.org",
             "Lead a week long in-person music remixing competition",
