@@ -55,8 +55,10 @@ function viewModel() {
           header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
           bullets: [
             "Software Engineer",
-            "Develop on and manage GCP + AWS infrastructure",
-            "Build atop a decentralized and distributed network",
+            "Developed on and manage GCP + AWS infrastructure",
+            "Built atop a decentralized and distributed network",
+            "Added distributed tracing with open-telemetry",
+            "Developed on in-house content storage system",
             ["Nodejs, Python, Rust, AWS, GCP, solana, ethereum"],
           ]
         },
