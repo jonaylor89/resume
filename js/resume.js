@@ -52,7 +52,15 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
+          header: ["New York City, New York", "Tapped", "Spring 2023 - Present"],
+          bullets: [
+            "CEO",
+            "Building for the new music industry!",
+            ["Flutter, Python, Nodejs, GCP, Firebase"],
+          ]
+        },
+        {
+          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Spring 2023"],
           bullets: [
             "Software Engineer",
             "Developed on and manage GCP + AWS infrastructure",
