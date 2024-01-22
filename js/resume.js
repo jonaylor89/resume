@@ -52,9 +52,10 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["New York City, New York", "Tapped", "Spring 2023 - Present"],
+          header: ["New York City, New York", "Tapped Ai", "Spring 2023 - Present"],
           bullets: [
             "CEO",
+            "https://tapped.ai",
             "Building for the new music industry!",
             ["Flutter, Python, Nodejs, GCP, Firebase"],
           ]
@@ -75,8 +76,9 @@ function viewModel() {
           bullets: [
             "Associate Software Engineer",
             "Develop on and manage AWS infrastructure for real time payments",
+            "Created data pipelines for new DS/ML workloads",
             "Modernization work for Architecture, APIs, and design processes",
-            ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
+            ["Snowflake, MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
           ]
         },
         {
