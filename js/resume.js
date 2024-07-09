@@ -60,7 +60,7 @@ function viewModel() {
             "Spring 2023 - Present",
           ],
           bullets: [
-            "CEO",
+            "CEO / Technical Founder",
             "create a world tour from your iPhone",
             "live music data analytics",
             [
