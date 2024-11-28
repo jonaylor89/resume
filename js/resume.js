@@ -90,7 +90,7 @@ function viewModel() {
           ],
         },
         {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Spring 2022"],
+          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2022"],
           bullets: [
             "Associate Software Engineer",
             "Develop on and manage AWS infrastructure for real time payments",
@@ -99,25 +99,6 @@ function viewModel() {
             [
               "Snowflake, MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS",
             ],
-          ],
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
-          bullets: [
-            "Software Studio Developer",
-            "Team lead for a team of contractors",
-            "Strict test driven development",
-            "GSuite management",
-            ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"],
-          ],
-        },
-        {
-          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Spring 2022"],
-          bullets: [
-            "Founder of In The Loop",
-            "https://intheloopstudio.com",
-            "Developed music platform for artists and producers to collaborate",
-            ["Vuejs, Firebase, GCP, Flutter, Android, iOS, mobile"],
           ],
         },
         {
