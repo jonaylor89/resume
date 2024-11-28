@@ -69,6 +69,16 @@ function viewModel() {
           ],
         },
         {
+          header: ["New York City, NY", "Udio", "Fall 2024 - Present"],
+          bullets: [
+            "Product Engineer",
+            "Developed on and manage machine learning pipelines on GCP",
+            "Build A/B testing into webapp",
+            "Used product-analytics to guide feature development",
+            ["Nextjs, Supabase, Golang, k8s, GCP, LLMs, Mixpanel"],
+          ],
+        },
+        {
           header: ["San Fransisco, CA", "Audius", "Spring 2022 - Spring 2023"],
           bullets: [
             "Software Engineer",
