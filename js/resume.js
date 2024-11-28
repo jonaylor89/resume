@@ -55,7 +55,7 @@ function viewModel() {
       subsections: [
         {
           header: [
-            "New York City, New York",
+            "New York City, NY",
             "Tapped Ai",
             "Spring 2023 - Present",
           ],
